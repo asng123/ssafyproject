@@ -29,7 +29,7 @@ import io.swagger.annotations.ApiParam;
 @RequestMapping("/user")
 @Api("사용자 컨트롤러  API V1")
 public class MemberController {
-
+	
 	public static final Logger logger = LoggerFactory.getLogger(MemberController.class);
 	private static final String SUCCESS = "success";
 	private static final String FAIL = "fail";
@@ -49,9 +49,9 @@ public class MemberController {
 		try {
 			MemberDto loginUser = memberService.login(memberDto);
 			if (loginUser != null) {
-				String accessToken = jwtService.createAccessToken("userid", loginUser.getUserid());// key, data
-				String refreshToken = jwtService.createRefreshToken("userid", loginUser.getUserid());// key, data
-				memberService.saveRefreshToken(memberDto.getUserid(), refreshToken);
+				String accessToken = jwtService.createAccessToken("userid", loginUser.getUid());// key, data
+				String refreshToken = jwtService.createRefreshToken("userid", loginUser.getUid());// key, data
+				memberService.saveRefreshToken(memberDto.getUid(), refreshToken);
 				logger.debug("로그인 accessToken 정보 : {}", accessToken);
 				logger.debug("로그인 refreshToken 정보 : {}", refreshToken);
 				resultMap.put("access-token", accessToken);
@@ -102,9 +102,9 @@ public class MemberController {
 	
 	
 	@ApiOperation(value = "회원인증", notes = "회원 정보를 담은 Token을 반환한다.", response = Map.class)
-	@GetMapping("/info/{userid}")
+	@GetMapping("/info/{uid}")
 	public ResponseEntity<Map<String, Object>> getInfo(
-			@PathVariable("userid") @ApiParam(value = "인증할 회원의 아이디.", required = true) String userid,
+			@PathVariable("uid") @ApiParam(value = "인증할 회원의 아이디.", required = true) String uid,
 			HttpServletRequest request) {
 //		logger.debug("userid : {} ", userid);
 		Map<String, Object> resultMap = new HashMap<>();
@@ -113,7 +113,7 @@ public class MemberController {
 			logger.info("사용 가능한 토큰!!!");
 			try {
 //				로그인 사용자 정보.
-				MemberDto memberDto = memberService.userInfo(userid);
+				MemberDto memberDto = memberService.userInfo(uid);
 				resultMap.put("userInfo", memberDto);
 				resultMap.put("message", SUCCESS);
 				status = HttpStatus.ACCEPTED;
@@ -131,12 +131,12 @@ public class MemberController {
 	}
 
 	@ApiOperation(value = "로그아웃", notes = "회원 정보를 담은 Token을 제거한다.", response = Map.class)
-	@GetMapping("/logout/{userid}")
-	public ResponseEntity<?> removeToken(@PathVariable("userid") String userid) {
+	@GetMapping("/logout/{uid}")
+	public ResponseEntity<?> removeToken(@PathVariable("uid") String uid) {
 		Map<String, Object> resultMap = new HashMap<>();
 		HttpStatus status = HttpStatus.ACCEPTED;
 		try {
-			memberService.deleRefreshToken(userid);
+			memberService.deleRefreshToken(uid);
 			resultMap.put("message", SUCCESS);
 			status = HttpStatus.ACCEPTED;
 		} catch (Exception e) {
@@ -157,8 +157,8 @@ public class MemberController {
 		String token = request.getHeader("refresh-token");
 		logger.debug("token : {}, memberDto : {}", token, memberDto);
 		if (jwtService.checkToken(token)) {
-			if (token.equals(memberService.getRefreshToken(memberDto.getUserid()))) {
-				String accessToken = jwtService.createAccessToken("userid", memberDto.getUserid());
+			if (token.equals(memberService.getRefreshToken(memberDto.getUid()))) {
+				String accessToken = jwtService.createAccessToken("userid", memberDto.getUid());
 				logger.debug("token : {}", accessToken);
 				logger.debug("정상적으로 액세스토큰 재발급!!!");
 				resultMap.put("access-token", accessToken);

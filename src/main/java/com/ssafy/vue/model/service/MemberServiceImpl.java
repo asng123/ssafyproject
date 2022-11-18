@@ -18,33 +18,33 @@ public class MemberServiceImpl implements MemberService {
 
 	@Override
 	public MemberDto login(MemberDto memberDto) throws Exception {
-		if (memberDto.getUserid() == null || memberDto.getUserpwd() == null)
+		if (memberDto.getUid() == null || memberDto.getPassword() == null)
 			return null;
 		return sqlSession.getMapper(MemberMapper.class).login(memberDto);
 	}
 
 	@Override
-	public MemberDto userInfo(String userid) throws Exception {
-		return sqlSession.getMapper(MemberMapper.class).userInfo(userid);
+	public MemberDto userInfo(String uid) throws Exception {
+		return sqlSession.getMapper(MemberMapper.class).userInfo(uid);
 	}
 
 	@Override
-	public void saveRefreshToken(String userid, String refreshToken) throws Exception {
+	public void saveRefreshToken(String uid, String refreshToken) throws Exception {
 		Map<String, String> map = new HashMap<String, String>();
-		map.put("userid", userid);
+		map.put("userid", uid);
 		map.put("token", refreshToken);
 		sqlSession.getMapper(MemberMapper.class).saveRefreshToken(map);
 	}
 
 	@Override
-	public Object getRefreshToken(String userid) throws Exception {
-		return sqlSession.getMapper(MemberMapper.class).getRefreshToken(userid);
+	public Object getRefreshToken(String uid) throws Exception {
+		return sqlSession.getMapper(MemberMapper.class).getRefreshToken(uid);
 	}
 
 	@Override
-	public void deleRefreshToken(String userid) throws Exception {
+	public void deleRefreshToken(String uid) throws Exception {
 		Map<String, String> map = new HashMap<String, String>();
-		map.put("userid", userid);
+		map.put("userid", uid);
 		map.put("token", null);
 		sqlSession.getMapper(MemberMapper.class).deleteRefreshToken(map);
 	}

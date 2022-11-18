@@ -1,67 +1,31 @@
-[2m2022-11-17 00:01:57.616[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 00:01:59.009[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:06:08.452[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:06:16.040[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:06:22.943[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:06:40.692[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:09:42.267[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:11:05.382[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:11:31.302[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:11:41.618[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:11:47.629[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:11:55.267[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:14:58.437[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:15:34.355[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:15:44.580[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:15:49.208[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:15:54.964[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:08.319[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:08.696[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:09.932[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:10.303[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:10.997[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:11.315[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:12.016[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:12.326[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:12.728[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:13.021[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:13.599[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:13.933[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:14.425[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:14.751[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:15.212[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:15.524[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:16.778[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:16:17.032[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:22.891[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출
-[2m2022-11-17 00:16:24.154[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:16:58.359[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:17:06.829[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 00:17:07.101[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:17:12.620[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 00:17:14.175[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:17:29.502[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 00:17:30.757[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:18:42.986[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:21:09.130[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:21:12.611[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:21:31.730[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:22:30.491[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:22:33.806[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:22:43.223[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:22:47.360[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:22:54.975[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:23:21.631[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:23:41.561[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:24:01.249[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:24:53.999[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:24:57.959[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:26:59.167[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:27:04.887[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:27:06.590[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 00:27:06.919[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 00:28:39.348[0;39m [32m INFO[0;39m [35m24680[0;39m [2m---[0;39m [2m[(214)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
-[2m2022-11-17 00:28:39.515[0;39m [33m WARN[0;39m [35m24680[0;39m [2m---[0;39m [2m[(214)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+[2m2022-11-18 02:00:09.819[0;39m [33m WARN[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:00:09.824[0;39m [33m WARN[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:00:09.824[0;39m [33m WARN[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:00:09.825[0;39m [33m WARN[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:00:10.105[0;39m [32m INFO[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:00:10.358[0;39m [32m INFO[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1061 ms
+[2m2022-11-18 02:00:11.062[0;39m [32m INFO[0;39m [35m9504[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:01:14.574[0;39m [32m INFO[0;39m [35m9504[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:01:14.576[0;39m [32m INFO[0;39m [35m9504[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:01:14.591[0;39m [33m WARN[0;39m [35m9504[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.PageNotFound            [0;39m [2m:[0;39m No mapping for GET /vue/swagger-ui/index.html
+[2m2022-11-18 02:13:47.306[0;39m [32m INFO[0;39m [35m9504[0;39m [2m---[0;39m [2m[n(23)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:16:58.784[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:16:58.786[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:16:58.787[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:16:58.787[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:16:59.070[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:16:59.268[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 985 ms
+[2m2022-11-18 02:16:59.913[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:17:17.003[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:17:17.005[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:17:17.040[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:18:47.867[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:19:05.759[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:19:57.614[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:27:37.439[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.ssafy.vue.controller.BoardController.writeArticle(com.ssafy.vue.model.BoardDto) throws java.lang.Exception]
+[2m2022-11-18 02:27:40.180[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.ssafy.vue.controller.BoardController.writeArticle(com.ssafy.vue.model.BoardDto) throws java.lang.Exception]
+[2m2022-11-18 02:27:55.514[0;39m [32m INFO[0;39m [35m24588[0;39m [2m---[0;39m [2m[n(21)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:27:55.605[0;39m [33m WARN[0;39m [35m24588[0;39m [2m---[0;39m [2m[n(21)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  sun.misc.Unsafe.park(Native Method)
  java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
  java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
@@ -71,31 +35,28 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-[2m2022-11-17 08:41:17.561[0;39m [33m WARN[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 08:41:17.564[0;39m [33m WARN[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 08:41:17.565[0;39m [33m WARN[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 08:41:17.566[0;39m [33m WARN[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
-[2m2022-11-17 08:41:18.031[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
-[2m2022-11-17 08:41:18.421[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1709 ms
-[2m2022-11-17 08:41:19.477[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
-[2m2022-11-17 08:46:29.067[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
-[2m2022-11-17 08:46:29.069[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
-[2m2022-11-17 08:46:29.196[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:46:49.418[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:46:55.651[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 08:46:55.869[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:47:00.190[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 08:47:00.386[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:47:03.820[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 08:47:03.958[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:47:07.692[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 08:47:07.852[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:47:12.556[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 08:47:12.718[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 08:47:33.025[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 08:47:34.451[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:00:34.853[0;39m [32m INFO[0;39m [35m13236[0;39m [2m---[0;39m [2m[n(88)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
-[2m2022-11-17 10:00:34.978[0;39m [33m WARN[0;39m [35m13236[0;39m [2m---[0;39m [2m[n(88)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+[2m2022-11-18 02:28:04.741[0;39m [33m WARN[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:28:04.743[0;39m [33m WARN[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:28:04.743[0;39m [33m WARN[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:28:04.743[0;39m [33m WARN[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:28:04.988[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:28:05.210[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 955 ms
+[2m2022-11-18 02:28:05.804[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:28:08.360[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:28:08.362[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:28:08.384[0;39m [33m WARN[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.springframework.http.ResponseEntity<java.lang.String> com.ssafy.vue.controller.BoardController.writeArticle(com.ssafy.vue.model.BoardDto) throws java.lang.Exception]
+[2m2022-11-18 02:28:18.647[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:28:34.431[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:28:38.460[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:28:51.383[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:29:52.355[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:32:43.580[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:32:55.252[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:33:05.989[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:33:12.259[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:33:34.795[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:34:43.075[0;39m [32m INFO[0;39m [35m10368[0;39m [2m---[0;39m [2m[n(16)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:34:43.198[0;39m [33m WARN[0;39m [35m10368[0;39m [2m---[0;39m [2m[n(16)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  sun.misc.Unsafe.park(Native Method)
  java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
  java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
@@ -105,350 +66,110 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-[2m2022-11-17 10:03:07.177[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 10:03:07.181[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 10:03:07.182[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 10:03:07.183[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
-[2m2022-11-17 10:03:07.710[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
-[2m2022-11-17 10:03:08.134[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1951 ms
-[2m2022-11-17 10:03:09.277[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
-[2m2022-11-17 10:03:58.525[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
-[2m2022-11-17 10:03:58.526[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
-[2m2022-11-17 10:03:58.834[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MDM4ODA4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcwNDgsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.4Jv1DeiV5imwcHISkb0oCnHm5fw91Hmk5PjCohAg2ck
-[2m2022-11-17 10:03:58.835[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MDM4ODMxLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcwNjgsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.FrUYFFdw88HOqd2P1bXos6J2XPxvAknLgOToLf554f4
-[2m2022-11-17 10:03:58.875[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:04:53.228[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:04:54.324[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:04:08Z. Current time: 2022-11-17T10:04:54Z, a difference of 46323 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:04:54.325[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
-[2m2022-11-17 10:04:54.333[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MDM4ODMxLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcwNjgsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.FrUYFFdw88HOqd2P1bXos6J2XPxvAknLgOToLf554f4, memberDto : com.ssafy.vue.model.MemberDto@b14f801
-[2m2022-11-17 10:04:54.334[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:04:28Z. Current time: 2022-11-17T10:04:54Z, a difference of 26334 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:04:54.334[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 리프레쉬토큰도 사용불!!!!!!!
-[2m2022-11-17 10:05:00.130[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTAwMTI3LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcxMTAsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.w-cm6su5OCJGrICyUzZYZKMTPQeayEJ6G4EKUObxKIo
-[2m2022-11-17 10:05:00.131[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTAwMTI4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcxMzAsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.-zPrrBF6_QcPCbSdg0SloyK9gvyH0XR6w1aH48qYpgU
-[2m2022-11-17 10:05:00.141[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:05:03.735[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:05:04.823[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:05:04.846[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
-[2m2022-11-17 10:05:09.742[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:05:16.837[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:05:10Z. Current time: 2022-11-17T10:05:16Z, a difference of 6836 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:05:16.838[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
-[2m2022-11-17 10:05:16.841[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTAwMTI4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcxMzAsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.-zPrrBF6_QcPCbSdg0SloyK9gvyH0XR6w1aH48qYpgU, memberDto : com.ssafy.vue.model.MemberDto@341fc471
-[2m2022-11-17 10:05:16.845[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTE2ODQ1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcxMjYsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0._l44C-vamzAzkeqMAeSbupmv0SZiC8ykYDG_3tR_-6s
-[2m2022-11-17 10:05:16.845[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 정상적으로 액세스토큰 재발급!!!
-[2m2022-11-17 10:05:16.853[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
-[2m2022-11-17 10:05:18.143[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:05:23.188[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:05:23.203[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 3
-[2m2022-11-17 10:05:24.334[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:05:25.219[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:05:25.233[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
-[2m2022-11-17 10:05:26.523[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:05:48.573[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:05:26Z. Current time: 2022-11-17T10:05:48Z, a difference of 22572 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:05:48.573[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
-[2m2022-11-17 10:05:48.579[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTAwMTI4LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcxMzAsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.-zPrrBF6_QcPCbSdg0SloyK9gvyH0XR6w1aH48qYpgU, memberDto : com.ssafy.vue.model.MemberDto@61b1004f
-[2m2022-11-17 10:05:48.581[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:05:30Z. Current time: 2022-11-17T10:05:48Z, a difference of 18580 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:05:48.581[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 리프레쉬토큰도 사용불!!!!!!!
-[2m2022-11-17 10:06:10.890[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:06:20.021[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:06:25.744[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTg1NzM3LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcxOTUsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.Ax8jHjGkxCLcv5WhrmKzB33gQWJTld4CW0H6GwAbpWg
-[2m2022-11-17 10:06:25.744[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTg1NzM3LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcyMTUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.WivjU07ZbnOcduyix2ZR77AgDMHfrmu1UiA3U_xLZwE
-[2m2022-11-17 10:06:25.749[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:06:29.759[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:06:30.999[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 10:06:31.020[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 4
-[2m2022-11-17 10:06:33.126[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:06:55.945[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:06:35Z. Current time: 2022-11-17T10:06:55Z, a difference of 20945 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:06:55.946[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 불가능 토큰!!!
-[2m2022-11-17 10:06:55.953[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m token : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjQ3MTg1NzM3LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NDcyMTUsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.WivjU07ZbnOcduyix2ZR77AgDMHfrmu1UiA3U_xLZwE, memberDto : com.ssafy.vue.model.MemberDto@37c0ee33
-[2m2022-11-17 10:06:55.956[0;39m [31mERROR[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.s.vue.model.service.JwtServiceImpl    [0;39m [2m:[0;39m JWT expired at 2022-11-17T10:06:55Z. Current time: 2022-11-17T10:06:55Z, a difference of 956 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2m2022-11-17 10:06:55.956[0;39m [32mDEBUG[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 리프레쉬토큰도 사용불!!!!!!!
-[2m2022-11-17 10:57:54.557[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:58:16.524[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:58:35.072[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 10:58:38.011[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:00:58.357[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:03:23.599[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:04:34.834[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:05:24.446[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:08:51.115[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:09:31.953[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:10:22.270[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:10:59.885[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:11:35.459[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:12:57.756[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:13:13.158[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:13:13.501[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:15:12.638[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:15:20.433[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:16:48.859[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:17:11.434[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=5, userid=admin, subject=긴글, content=ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ, hit=0, regtime=11:13:13]
-[2m2022-11-17 11:17:11.818[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:17:37.464[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:16.670[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:17.880[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:21.961[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:22.095[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:28.639[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:29.662[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:33.551[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:33.645[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:40.081[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:41.057[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:45.979[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:47.113[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:18:55.342[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:18:55.433[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:19:26.435[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:19:29.707[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:19:34.107[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:20:43.738[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 11:20:44.955[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:25:26.697[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:25:33.962[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:26:00.290[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:26:34.971[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:26:44.811[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:27:20.025[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:27:36.823[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:27:58.471[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:28:07.771[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 11:29:05.815[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:29:11.240[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 11:29:11.850[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:29:28.240[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 11:29:28.622[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:29:34.429[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 11:29:34.731[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:29:36.808[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
-[2m2022-11-17 11:29:37.144[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:30:43.000[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:31:04.852[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:31:21.475[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:31:51.836[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:39:10.142[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:48:16.836[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:49:04.447[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:49:14.054[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:51:32.873[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:51:43.189[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:51:47.366[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:52:09.237[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:52:40.230[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:53:14.858[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:56:06.363[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:56:12.339[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:56:15.841[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:56:45.444[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:57:00.737[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 11:57:02.406[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:01:45.307[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:03:54.932[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:04:17.723[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:05:02.030[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:06:04.127[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:07:07.751[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:07:16.852[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:08:47.000[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:08:53.702[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:09:00.444[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:09:04.395[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:14:01.414[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:14:03.288[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:14:14.997[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:14:38.042[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:14:39.618[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:15:54.522[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:19:44.119[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:20:04.465[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:22:52.308[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:29:15.367[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:29:17.902[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:33:20.109[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:35:23.520[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:35:47.315[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:35:50.014[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:35:56.666[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:35:59.033[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
-[2m2022-11-17 12:36:14.313[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:36:15.212[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
-[2m2022-11-17 12:36:17.448[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:36:49.292[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:04.818[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:08.149[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:37:09.709[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:11.327[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
-[2m2022-11-17 12:37:12.428[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:13.517[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
-[2m2022-11-17 12:37:15.152[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 12
-[2m2022-11-17 12:37:15.959[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:24.846[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 1
-[2m2022-11-17 12:37:27.899[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:55.441[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:37:57.342[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:37:58.764[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:38:16.807[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:38:18.173[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:38:19.445[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:38:28.225[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:38:29.061[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:38:29.951[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:38:58.169[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:39:09.540[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=13, userid=admin, subject=실거래가 조회 서비스 추가(수정), content=안녕하세요. 
- 
-부동산 거래의 시작과 끝.
-'내집스토어'입니다.
+[2m2022-11-18 02:35:03.439[0;39m [33m WARN[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:35:03.440[0;39m [33m WARN[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:35:03.440[0;39m [33m WARN[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:35:03.441[0;39m [33m WARN[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:35:03.715[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:35:03.946[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1022 ms
+[2m2022-11-18 02:35:04.583[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:35:11.391[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:35:11.392[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:35:11.414[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:35:14.041[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:37:09.452[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:37:27.554[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 1
+[2m2022-11-18 02:37:27.633[0;39m [31mERROR[0;39m [35m5748[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: Unknown column 'regtime' in 'field list'
+### The error may exist in file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]
+### The error may involve com.ssafy.vue.model.mapper.BoardMapper.getArticle-Inline
+### The error occurred while setting parameters
+### SQL: select b_id, subject, content, hit, regtime   from board   where b_id = ?
+### Cause: java.sql.SQLSyntaxErrorException: Unknown column 'regtime' in 'field list'
+; bad SQL grammar []; nested exception is java.sql.SQLSyntaxErrorException: Unknown column 'regtime' in 'field list'] with root cause
 
-언제 어디서든 전국 토지·건물 실거래가와 매물을
-한 번에 확인할 수 있는 '실거래가 조회' 서비스의
-실거래 데이터가 2022년 10월 31일자(국토교통부 데이터 공개일자) 기준으로 
-반영되었습니다.
+java.sql.SQLSyntaxErrorException: Unknown column 'regtime' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:64)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:79)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:63)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy78.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy102.getArticle(Unknown Source)
+	at com.ssafy.vue.model.service.BoardServiceImpl.getArticle(BoardServiceImpl.java:56)
+	at com.ssafy.vue.model.service.BoardServiceImpl$$FastClassBySpringCGLIB$$fc74f1dc.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386)
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704)
+	at com.ssafy.vue.model.service.BoardServiceImpl$$EnhancerBySpringCGLIB$$d06bc845.getArticle(<generated>)
+	at com.ssafy.vue.controller.BoardController.getArticle(BoardController.java:63)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
 
-내집스토어에서는 만족스러운 부동산 거래의
-종합 정보를 제공해 드리기 위해 기능 및 데이터
-업데이트를 지속적으로 진행할 예정이오니
-'실거래가 조회'서비스에 대한 많은 이용과 관심을
-부탁드립니다., hit=15, regtime=11:20:43]
-[2m2022-11-17 12:39:09.722[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:39:59.632[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:03.912[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=13, userid=admin, subject=실거래가 조회 서비스 추가(수정2), content=안녕하세요. 
- 
-부동산 거래의 시작과 끝.
-'내집스토어'입니다.
-
-언제 어디서든 전국 토지·건물 실거래가와 매물을
-한 번에 확인할 수 있는 '실거래가 조회' 서비스의
-실거래 데이터가 2022년 10월 31일자(국토교통부 데이터 공개일자) 기준으로 
-반영되었습니다.
-
-내집스토어에서는 만족스러운 부동산 거래의
-종합 정보를 제공해 드리기 위해 기능 및 데이터
-업데이트를 지속적으로 진행할 예정이오니
-'실거래가 조회'서비스에 대한 많은 이용과 관심을
-부탁드립니다., hit=15, regtime=11:20:43]
-[2m2022-11-17 12:40:03.921[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:03.926[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:03.930[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:28.333[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:45.095[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:40:46.840[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:56.673[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=13, userid=admin, subject=실거래가 조회 서비스 추가(수정3), content=안녕하세요. 
- 
-부동산 거래의 시작과 끝.
-'내집스토어'입니다.
-
-언제 어디서든 전국 토지·건물 실거래가와 매물을
-한 번에 확인할 수 있는 '실거래가 조회' 서비스의
-실거래 데이터가 2022년 10월 31일자(국토교통부 데이터 공개일자) 기준으로 
-반영되었습니다.
-
-내집스토어에서는 만족스러운 부동산 거래의
-종합 정보를 제공해 드리기 위해 기능 및 데이터
-업데이트를 지속적으로 진행할 예정이오니
-'실거래가 조회'서비스에 대한 많은 이용과 관심을
-부탁드립니다., hit=16, regtime=11:20:43]
-[2m2022-11-17 12:40:56.679[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:56.684[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:40:56.688[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:47:51.350[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:48:16.672[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 12:48:23.815[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 12:50:47.833[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:17.820[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:19.643[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 13:24:23.101[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:28.683[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:28.688[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:28.692[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:28.697[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=13, userid=admin, subject=실거래가 조회 서비스 추가(수정4), content=안녕하세요. 
- 
-부동산 거래의 시작과 끝.
-'내집스토어'입니다.
-
-언제 어디서든 전국 토지·건물 실거래가와 매물을
-한 번에 확인할 수 있는 '실거래가 조회' 서비스의
-실거래 데이터가 2022년 10월 31일자(국토교통부 데이터 공개일자) 기준으로 
-반영되었습니다.
-
-내집스토어에서는 만족스러운 부동산 거래의
-종합 정보를 제공해 드리기 위해 기능 및 데이터
-업데이트를 지속적으로 진행할 예정이오니
-'실거래가 조회'서비스에 대한 많은 이용과 관심을
-부탁드립니다., hit=18, regtime=11:20:43]
-[2m2022-11-17 13:24:31.948[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m30s155ms360µs201ns).
-[2m2022-11-17 13:24:34.182[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 13:24:34.335[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:42.558[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:42.563[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:48.369[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 13:24:48.369[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:24:48.379[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:25:35.984[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:25:40.127[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:25:40.133[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 13:25:46.108[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:26:05.813[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:26:18.761[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=13, userid=admin, subject=실거래가 조회 서비스 추가(수정5), content=안녕하세요. 
- 
-부동산 거래의 시작과 끝.
-'내집스토어'입니다.
-
-언제 어디서든 전국 토지·건물 실거래가와 매물을
-한 번에 확인할 수 있는 '실거래가 조회' 서비스의
-실거래 데이터가 2022년 10월 31일자(국토교통부 데이터 공개일자) 기준으로 
-반영되었습니다.
-
-내집스토어에서는 만족스러운 부동산 거래의
-종합 정보를 제공해 드리기 위해 기능 및 데이터
-업데이트를 지속적으로 진행할 예정이오니
-'실거래가 조회'서비스에 대한 많은 이용과 관심을
-부탁드립니다., hit=18, regtime=11:20:43]
-[2m2022-11-17 13:26:18.773[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:26:18.778[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:26:18.782[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:26:21.712[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:26:21.724[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 13:26:25.338[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:12.561[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:15.794[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:17.476[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 13
-[2m2022-11-17 13:27:19.272[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:21.156[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:23.304[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:28.750[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:28.755[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:32.497[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=10, userid=admin, subject=글6, content=글5, hit=0, regtime=11:18:40]
-[2m2022-11-17 13:27:32.503[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:32.507[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:32.511[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:38.290[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:42.916[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=10, userid=admin, subject=ㅂㅈㅂㄷㅂㅈ, content=ㅂㅈㄷㅂ, hit=0, regtime=11:18:40]
-[2m2022-11-17 13:27:42.921[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:42.926[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:42.930[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:48.125[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:27:48.129[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:28:39.030[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:13.003[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:17.878[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:22.501[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 13:29:22.503[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:22.509[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:26.048[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:26.050[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 13:29:29.659[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:34.691[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m modifyArticle - 호출 BoardDto [articleno=9, userid=admin, subject=글5555, content=글4, hit=0, regtime=11:18:33]
-[2m2022-11-17 13:29:34.698[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:34.703[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:34.706[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:42.476[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:42.479[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:44.471[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:44.480[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:46.450[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:29:46.453[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 13:59:44.176[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m11s764ms544µs199ns).
-[2m2022-11-17 14:19:39.178[0;39m [32m INFO[0;39m [35m9776[0;39m [2m---[0;39m [2m[(257)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
-[2m2022-11-17 14:19:39.309[0;39m [33m WARN[0;39m [35m9776[0;39m [2m---[0;39m [2m[(257)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+[2m2022-11-18 02:38:13.252[0;39m [32m INFO[0;39m [35m5748[0;39m [2m---[0;39m [2m[n(11)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:38:13.355[0;39m [33m WARN[0;39m [35m5748[0;39m [2m---[0;39m [2m[n(11)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
  sun.misc.Unsafe.park(Native Method)
  java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
  java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
@@ -458,23 +179,82 @@
  java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
  java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
  java.lang.Thread.run(Thread.java:748)
-[2m2022-11-17 14:19:45.754[0;39m [33m WARN[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 14:19:45.756[0;39m [33m WARN[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 14:19:45.756[0;39m [33m WARN[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 14:19:45.756[0;39m [33m WARN[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
-[2m2022-11-17 14:19:46.005[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
-[2m2022-11-17 14:19:46.248[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1033 ms
-[2m2022-11-17 14:19:46.892[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
-[2m2022-11-17 14:20:02.808[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
-[2m2022-11-17 14:20:02.809[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
-[2m2022-11-17 14:20:02.837[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 14:20:02.849[0;39m [31mERROR[0;39m [35m28328[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is org.apache.ibatis.builder.IncompleteElementException: Could not find a parent resultmap with id 'com.ssafy.vue.model.mapper.MemberMapper.member'] with root cause
+[2m2022-11-18 02:38:22.600[0;39m [33m WARN[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:38:22.601[0;39m [33m WARN[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:38:22.602[0;39m [33m WARN[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:38:22.602[0;39m [33m WARN[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:38:22.879[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:38:23.138[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1105 ms
+[2m2022-11-18 02:38:23.839[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:38:29.430[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:38:29.431[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:38:29.451[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 1
+[2m2022-11-18 02:38:37.823[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:38:42.428[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 2
+[2m2022-11-18 02:38:48.701[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 2
+[2m2022-11-18 02:39:45.370[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:39:50.028[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:39:55.620[0;39m [32m INFO[0;39m [35m21568[0;39m [2m---[0;39m [2m[n(12)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:39:55.742[0;39m [33m WARN[0;39m [35m21568[0;39m [2m---[0;39m [2m[n(12)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[2m2022-11-18 02:40:02.282[0;39m [33m WARN[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:40:02.284[0;39m [33m WARN[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:40:02.285[0;39m [33m WARN[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:40:02.285[0;39m [33m WARN[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:40:02.586[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:40:02.844[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1128 ms
+[2m2022-11-18 02:40:03.516[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:40:05.742[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:40:05.743[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[2m2022-11-18 02:40:05.767[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:43:40.283[0;39m [32m INFO[0;39m [35m36356[0;39m [2m---[0;39m [2m[n(14)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:43:40.389[0;39m [33m WARN[0;39m [35m36356[0;39m [2m---[0;39m [2m[n(14)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[2m2022-11-18 02:43:45.812[0;39m [33m WARN[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:43:45.813[0;39m [33m WARN[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:43:45.813[0;39m [33m WARN[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:43:45.813[0;39m [33m WARN[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:43:46.067[0;39m [32m INFO[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:43:46.300[0;39m [32m INFO[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1017 ms
+[2m2022-11-18 02:43:46.920[0;39m [32m INFO[0;39m [35m23824[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:43:53.542[0;39m [32m INFO[0;39m [35m23824[0;39m [2m---[0;39m [2m[on(6)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:44:10.497[0;39m [33m WARN[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:44:10.499[0;39m [33m WARN[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:44:10.499[0;39m [33m WARN[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:44:10.499[0;39m [33m WARN[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:44:10.750[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:44:10.990[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1005 ms
+[2m2022-11-18 02:44:11.616[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:44:26.040[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:44:26.041[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:44:26.063[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:44:26.077[0;39m [31mERROR[0;39m [35m6140[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mo.a.c.c.C.[.[.[.[dispatcherServlet]     [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/vue] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.ssafy.vue.model.mapper.BoardMapper.boardDto] with root cause
 
-org.apache.ibatis.builder.IncompleteElementException: Could not find a parent resultmap with id 'com.ssafy.vue.model.mapper.MemberMapper.member'
-	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:188)
-	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:47)
-	at org.apache.ibatis.session.Configuration.parsePendingResultMaps(Configuration.java:932)
-	at org.apache.ibatis.session.Configuration.buildAllStatements(Configuration.java:896)
+java.lang.IllegalArgumentException: Result Maps collection does not contain value for com.ssafy.vue.model.mapper.BoardMapper.boardDto
+	at org.apache.ibatis.session.Configuration$StrictMap.get(Configuration.java:1054)
+	at org.apache.ibatis.session.Configuration.getResultMap(Configuration.java:763)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.getStatementResultMaps(MapperBuilderAssistant.java:394)
+	at org.apache.ibatis.builder.MapperBuilderAssistant.addMappedStatement(MapperBuilderAssistant.java:285)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:113)
+	at org.apache.ibatis.session.Configuration.lambda$buildAllStatements$2(Configuration.java:905)
+	at java.util.Collection.removeIf(Collection.java:414)
+	at org.apache.ibatis.session.Configuration.buildAllStatements(Configuration.java:904)
 	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:881)
 	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:876)
 	at org.apache.ibatis.binding.MapperMethod$SqlCommand.resolveMappedStatement(MapperMethod.java:257)
@@ -537,251 +317,166 @@ org.apache.ibatis.builder.IncompleteElementException: Could not find a parent re
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
 
-[2m2022-11-17 14:23:13.292[0;39m [32m INFO[0;39m [35m28328[0;39m [2m---[0;39m [2m[n(11)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
-[2m2022-11-17 15:00:03.151[0;39m [33m WARN[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:00:03.152[0;39m [33m WARN[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:00:03.153[0;39m [33m WARN[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:00:03.153[0;39m [33m WARN[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
-[2m2022-11-17 15:00:03.414[0;39m [32m INFO[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
-[2m2022-11-17 15:00:03.679[0;39m [32m INFO[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1104 ms
-[2m2022-11-17 15:00:04.332[0;39m [32m INFO[0;39m [35m14480[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
-[2m2022-11-17 15:01:08.885[0;39m [32m INFO[0;39m [35m14480[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
-[2m2022-11-17 15:01:08.887[0;39m [32m INFO[0;39m [35m14480[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 2 ms
-[2m2022-11-17 15:01:08.995[0;39m [31mERROR[0;39m [35m14480[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 실패 : {}
+[2m2022-11-18 02:44:47.382[0;39m [32m INFO[0;39m [35m6140[0;39m [2m---[0;39m [2m[n(10)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:44:53.647[0;39m [33m WARN[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:44:53.648[0;39m [33m WARN[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:44:53.649[0;39m [33m WARN[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:44:53.649[0;39m [33m WARN[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:44:53.896[0;39m [32m INFO[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:44:54.112[0;39m [32m INFO[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 955 ms
+[2m2022-11-18 02:44:54.271[0;39m [33m WARN[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardServiceImpl': Unsatisfied dependency expressed through field 'sqlSession'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+[2m2022-11-18 02:44:54.280[0;39m [32m INFO[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
 
-org.apache.ibatis.builder.IncompleteElementException: Could not find a parent resultmap with id 'com.ssafy.vue.model.mapper.MemberMapper.member'
-	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:188)
-	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:47)
-	at org.apache.ibatis.session.Configuration.parsePendingResultMaps(Configuration.java:932)
-	at org.apache.ibatis.session.Configuration.buildAllStatements(Configuration.java:896)
-	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:881)
-	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:876)
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.resolveMappedStatement(MapperMethod.java:257)
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
-	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
-	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
-	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
-	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
-	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at com.sun.proxy.$Proxy102.login(Unknown Source)
-	at com.ssafy.vue.model.service.MemberServiceImpl.login(MemberServiceImpl.java:23)
-	at com.ssafy.vue.controller.MemberController.login(MemberController.java:50)
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2022-11-18 02:44:54.302[0;39m [31mERROR[0;39m [35m28812[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.boot.SpringApplication              [0;39m [2m:[0;39m Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'boardService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardServiceImpl': Unsatisfied dependency expressed through field 'sqlSession'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.ssafy.vue.VueApiApplication.main(VueApiApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardServiceImpl': Unsatisfied dependency expressed through field 'sqlSession'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 47 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 61 common frames omitted
+Caused by: org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:491)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:633)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:188)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$c1ef78a6.CGLIB$sqlSessionFactory$2(<generated>)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$c1ef78a6$$FastClassBySpringCGLIB$$cd219a93.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$c1ef78a6.sqlSessionFactory(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 62 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\Users\PC\OneDrive\바탕 화면\ssafy\spring\VueAPI\target\classes\mappers\board.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:611)
+	... 75 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
+	... 77 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'board'.  Cause: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 81 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: board
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
+	... 83 common frames omitted
 
-[2m2022-11-17 15:01:15.212[0;39m [31mERROR[0;39m [35m14480[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 실패 : {}
-
-org.apache.ibatis.builder.IncompleteElementException: Could not find a parent resultmap with id 'com.ssafy.vue.model.mapper.MemberMapper.member'
-	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:188)
-	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:47)
-	at org.apache.ibatis.session.Configuration.parsePendingResultMaps(Configuration.java:932)
-	at org.apache.ibatis.session.Configuration.buildAllStatements(Configuration.java:896)
-	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:881)
-	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:876)
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.resolveMappedStatement(MapperMethod.java:257)
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
-	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
-	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
-	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
-	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
-	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at com.sun.proxy.$Proxy102.login(Unknown Source)
-	at com.ssafy.vue.model.service.MemberServiceImpl.login(MemberServiceImpl.java:23)
-	at com.ssafy.vue.controller.MemberController.login(MemberController.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-
-[2m2022-11-17 15:03:42.589[0;39m [32m INFO[0;39m [35m14480[0;39m [2m---[0;39m [2m[n(13)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
-[2m2022-11-17 15:03:50.033[0;39m [33m WARN[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:03:50.035[0;39m [33m WARN[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:03:50.035[0;39m [33m WARN[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:03:50.035[0;39m [33m WARN[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
-[2m2022-11-17 15:03:50.267[0;39m [32m INFO[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
-[2m2022-11-17 15:03:50.450[0;39m [32m INFO[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 923 ms
-[2m2022-11-17 15:03:51.042[0;39m [32m INFO[0;39m [35m5704[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
-[2m2022-11-17 15:04:32.490[0;39m [32m INFO[0;39m [35m5704[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
-[2m2022-11-17 15:04:32.491[0;39m [32m INFO[0;39m [35m5704[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
-[2m2022-11-17 15:04:32.538[0;39m [31mERROR[0;39m [35m5704[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 실패 : {}
-
-org.apache.ibatis.builder.IncompleteElementException: Could not find a parent resultmap with id 'com.ssafy.vue.model.mapper.MemberMapper.member'
-	at org.apache.ibatis.builder.MapperBuilderAssistant.addResultMap(MapperBuilderAssistant.java:188)
-	at org.apache.ibatis.builder.ResultMapResolver.resolve(ResultMapResolver.java:47)
-	at org.apache.ibatis.session.Configuration.parsePendingResultMaps(Configuration.java:932)
-	at org.apache.ibatis.session.Configuration.buildAllStatements(Configuration.java:896)
-	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:881)
-	at org.apache.ibatis.session.Configuration.hasStatement(Configuration.java:876)
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.resolveMappedStatement(MapperMethod.java:257)
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:227)
-	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
-	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:108)
-	at java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1660)
-	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:35)
-	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:95)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at com.sun.proxy.$Proxy102.login(Unknown Source)
-	at com.ssafy.vue.model.service.MemberServiceImpl.login(MemberServiceImpl.java:23)
-	at com.ssafy.vue.controller.MemberController.login(MemberController.java:50)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1071)
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:964)
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:696)
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
-
-[2m2022-11-17 15:05:03.363[0;39m [32m INFO[0;39m [35m5704[0;39m [2m---[0;39m [2m[on(9)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
-[2m2022-11-17 15:05:10.798[0;39m [33m WARN[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:05:10.800[0;39m [33m WARN[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:05:10.800[0;39m [33m WARN[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
-[2m2022-11-17 15:05:10.800[0;39m [33m WARN[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
-[2m2022-11-17 15:05:11.036[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
-[2m2022-11-17 15:05:11.253[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 945 ms
-[2m2022-11-17 15:05:11.896[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
-[2m2022-11-17 15:06:22.395[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
-[2m2022-11-17 15:06:22.397[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
-[2m2022-11-17 15:06:22.729[0;39m [32mDEBUG[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjY1MTgyNzAzLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NjU0ODIsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.6tHfDfqubKGR-XfYGVpzD1seWmR2PrCJnRtvD2I-A1M
-[2m2022-11-17 15:06:22.730[0;39m [32mDEBUG[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjY1MTgyNzI1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NjYwODIsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.it0zlw61KUMc1wD-4_RG-HMZ0Rdc6iD2_W3C_JpezuA
-[2m2022-11-17 15:06:22.773[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 15:06:39.648[0;39m [32mDEBUG[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjY1MTk5NjQ1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NjU0OTksInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.NFJccBMgxttYgm2oro-oYJ9evvalSthyOta4iNomShk
-[2m2022-11-17 15:06:39.649[0;39m [32mDEBUG[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjY1MTk5NjQ1LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NjYwOTksInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.ZYPq0zA93jf634k2kx7ZGTJv5CAnS-B-K8_WS4BVXuw
-[2m2022-11-17 15:06:39.658[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 15:30:50.475[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:32:40.336[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:32:46.519[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:32:46.524[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 15:32:50.120[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:33:58.139[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:33:59.165[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m deleteArticle - 호출
-[2m2022-11-17 15:33:59.352[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:35:11.292[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:35:11.295[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m writeArticle - 호출
-[2m2022-11-17 15:35:11.300[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-5][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:35:14.839[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 16
-[2m2022-11-17 15:35:16.143[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:55:02.997[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 15:56:04.136[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 16:39:17.054[0;39m [32mDEBUG[0;39m [35m32328[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 accessToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjcwNzU3MDQzLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NzEwNTcsInN1YiI6ImFjY2Vzcy10b2tlbiIsInVzZXJpZCI6InNzYWZ5In0.nVF2qPHh33e9XjrdwJ8lSGuFvUsTjbqH8YV4kw0YSvI
-[2m2022-11-17 16:39:17.055[0;39m [32mDEBUG[0;39m [35m32328[0;39m [2m---[0;39m [2m[io-9999-exec-10][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 로그인 refreshToken 정보 : eyJ0eXAiOiJKV1QiLCJyZWdEYXRlIjoxNjY4NjcwNzU3MDQ5LCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2Njg2NzE2NTcsInN1YiI6InJlZnJlc2gtdG9rZW4iLCJ1c2VyaWQiOiJzc2FmeSJ9.FzznkGEtBECeceyOMyARxMYls-OvA4IMZ6jmXsy5IcY
-[2m2022-11-17 16:39:17.072[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-3][0;39m [36mc.ssafy.vue.controller.MemberController [0;39m [2m:[0;39m 사용 가능한 토큰!!!
-[2m2022-11-17 16:46:40.524[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-4][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 16:47:01.203[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-7][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
-[2m2022-11-17 16:47:11.638[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-6][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 16
-[2m2022-11-17 16:47:18.822[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 16
-[2m2022-11-17 16:47:21.382[0;39m [32m INFO[0;39m [35m32328[0;39m [2m---[0;39m [2m[nio-9999-exec-9][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:45:24.669[0;39m [33m WARN[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:45:24.671[0;39m [33m WARN[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:45:24.671[0;39m [33m WARN[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:45:24.671[0;39m [33m WARN[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:45:24.911[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:45:25.145[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 969 ms
+[2m2022-11-18 02:45:25.741[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:45:29.893[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:45:29.893[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[2m2022-11-18 02:45:29.913[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[nio-9999-exec-2][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m listArticle - 호출
+[2m2022-11-18 02:45:37.431[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mc.ssafy.vue.controller.BoardController  [0;39m [2m:[0;39m getArticle - 호출 : 3
+[2m2022-11-18 02:46:03.566[0;39m [32m INFO[0;39m [35m20372[0;39m [2m---[0;39m [2m[n(10)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.
+[2m2022-11-18 02:46:03.674[0;39m [33m WARN[0;39m [35m20372[0;39m [2m---[0;39m [2m[n(10)-127.0.0.1][0;39m [36mo.a.c.loader.WebappClassLoaderBase      [0;39m [2m:[0;39m The web application [vue] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)
+[2m2022-11-18 02:46:13.814[0;39m [33m WARN[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'boardMapper' and 'com.ssafy.vue.model.mapper.BoardMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:46:13.816[0;39m [33m WARN[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'houseMapMapper' and 'com.ssafy.vue.model.mapper.HouseMapMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:46:13.816[0;39m [33m WARN[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.ssafy.vue.model.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+[2m2022-11-18 02:46:13.816[0;39m [33m WARN[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.m.s.mapper.ClassPathMapperScanner     [0;39m [2m:[0;39m No MyBatis mapper was found in '[com.ssafy.vue.model.mapper]' package. Please check your configuration.
+[2m2022-11-18 02:46:14.054[0;39m [32m INFO[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 9999 (http)
+[2m2022-11-18 02:46:14.291[0;39m [32m INFO[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 981 ms
+[2m2022-11-18 02:46:14.908[0;39m [32m INFO[0;39m [35m8204[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 9999 (http) with context path '/vue'
+[2m2022-11-18 02:47:14.876[0;39m [32m INFO[0;39m [35m8204[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-11-18 02:47:14.877[0;39m [32m INFO[0;39m [35m8204[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-11-18 02:47:14.929[0;39m [33m WARN[0;39m [35m8204[0;39m [2m---[0;39m [2m[nio-9999-exec-1][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------485004230972428223290268;charset=UTF-8' not supported]
+[2m2022-11-18 02:49:48.214[0;39m [33m WARN[0;39m [35m8204[0;39m [2m---[0;39m [2m[nio-9999-exec-8][0;39m [36m.w.s.m.s.DefaultHandlerExceptionResolver[0;39m [2m:[0;39m Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+[2m2022-11-18 09:33:59.428[0;39m [32m INFO[0;39m [35m8204[0;39m [2m---[0;39m [2m[n(71)-127.0.0.1][0;39m [36minMXBeanRegistrar$SpringApplicationAdmin[0;39m [2m:[0;39m Application shutdown requested.

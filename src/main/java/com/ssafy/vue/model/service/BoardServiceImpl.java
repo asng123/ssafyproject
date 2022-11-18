@@ -52,13 +52,13 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
-	public BoardDto getArticle(int bid) throws Exception {
-		return sqlSession.getMapper(BoardMapper.class).getArticle(bid);
+	public BoardDto getArticle(int articleno) throws Exception {
+		return sqlSession.getMapper(BoardMapper.class).getArticle(articleno);
 	}
 	
 	@Override
-	public void updateHit(int bid) throws Exception {
-		sqlSession.getMapper(BoardMapper.class).updateHit(bid);
+	public void updateHit(int articleno) throws Exception {
+		sqlSession.getMapper(BoardMapper.class).updateHit(articleno);
 	}
 
 	@Override
@@ -69,8 +69,8 @@ public class BoardServiceImpl implements BoardService {
 
 	@Override
 	@Transactional
-	public boolean deleteArticle(int bid) throws Exception {
-//		sqlSession.getMapper(BoardMapper.class).deleteMemo(bid);
-		return sqlSession.getMapper(BoardMapper.class).deleteArticle(bid) == 1;
+	public boolean deleteArticle(int articleno) throws Exception {
+		sqlSession.getMapper(BoardMapper.class).deleteMemo(articleno);
+		return sqlSession.getMapper(BoardMapper.class).deleteArticle(articleno) == 1;
 	}
 }

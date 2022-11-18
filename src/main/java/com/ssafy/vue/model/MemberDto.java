@@ -7,46 +7,33 @@ import io.swagger.annotations.ApiModelProperty;
 public class MemberDto {
 
 	@ApiModelProperty(value = "회원 아이디")
-	private String uid;
+	private String userid;
 	@ApiModelProperty(value = "회원 이름")
 	private String username;
-	@ApiModelProperty(value = "닉네임")
-	private String nickname;
-	@ApiModelProperty(value = "전화번호")
-	private String phonenumber;
 	@ApiModelProperty(value = "회원 비밀번호")
-	private String password;
+	private String userpwd;
 	@ApiModelProperty(value = "회원 이메일")
 	private String email;
 	@ApiModelProperty(value = "회원 가입일")
 	private String joindate;
 	@ApiModelProperty(value = "탈퇴 여부")
 	private int delflag;
-	@ApiModelProperty(value = "토큰")
-	private int token;
 	
-	public int getToken() {
-		return token;
-	}
-
-	public void setToken(int token) {
-		this.token = token;
-	}
-
-	public String getPhonenumber() {
-		return phonenumber;
-	}
-
-	public void setPhonenumber(String phonenumber) {
-		this.phonenumber = phonenumber;
-	}
-
+	
 	public int getDelflag() {
 		return delflag;
 	}
 
 	public void setDelflag(int delflag) {
 		this.delflag = delflag;
+	}
+
+	public String getUserid() {
+		return userid;
+	}
+
+	public void setUserid(String userid) {
+		this.userid = userid;
 	}
 
 	public String getUsername() {
@@ -57,28 +44,12 @@ public class MemberDto {
 		this.username = username;
 	}
 
-	public String getUid() {
-		return uid;
+	public String getUserpwd() {
+		return userpwd;
 	}
 
-	public void setUid(String uid) {
-		this.uid = uid;
-	}
-
-	public String getNickname() {
-		return nickname;
-	}
-
-	public void setNickname(String nickname) {
-		this.nickname = nickname;
-	}
-
-	public String getPassword() {
-		return password;
-	}
-
-	public void setPassword(String password) {
-		this.password = password;
+	public void setUserpwd(String userpwd) {
+		this.userpwd = userpwd;
 	}
 
 	public String getEmail() {

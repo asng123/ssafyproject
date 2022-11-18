@@ -3,7 +3,7 @@ package com.ssafy.vue.model;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
-@ApiModel(value = "BoardDto : 게시글정보", description = "게시글의 상세 정보를 나타낸다.")
+@ApiModel(value = "ZipDto : 소개글정보", description = "소개글의 요약 정보를 나타낸다.")
 public class ZipDto {
 	@ApiModelProperty(value = "소개글번호")
 	private int zid;

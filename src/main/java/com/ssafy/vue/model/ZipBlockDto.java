@@ -3,63 +3,52 @@ package com.ssafy.vue.model;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
-@ApiModel(value = "BoardDto : 게시글정보", description = "게시글의 상세 정보를 나타낸다.")
+@ApiModel(value = "ZipBlockDto : 소개글 block 정보", description = "소개글의 상세 정보를 나타낸다.")
 public class ZipBlockDto {
-	@ApiModelProperty(value = "글번호")
-	private int bid;
-	@ApiModelProperty(value = "글제목")
-	private String subject;
+	@ApiModelProperty(value = "block 번호")
+	private int zbid;
+	@ApiModelProperty(value = "block 타입")
+	private int type;
 	@ApiModelProperty(value = "글내용")
 	private String content;
-	@ApiModelProperty(value = "조회수")
-	private int hit;
-	@ApiModelProperty(value = "작성일")
-	private String regtime;
-
-	public int getBid() {
-		return bid;
+	@ApiModelProperty(value = "Zip위치")
+	private int zid;
+	
+	public int getZbid() {
+		return zbid;
 	}
-
-	public void setBid(int bid) {
-		this.bid = bid;
+	
+	public void setZbid(int zbid) {
+		this.zbid = zbid;
 	}
-
-	public String getSubject() {
-		return subject;
+	
+	public int getType() {
+		return type;
 	}
-
-	public void setSubject(String subject) {
-		this.subject = subject;
+	
+	public void setType(int type) {
+		this.type = type;
 	}
-
+	
 	public String getContent() {
 		return content;
 	}
-
+	
 	public void setContent(String content) {
 		this.content = content;
 	}
-
-	public int getHit() {
-		return hit;
+	
+	public int getZid() {
+		return zid;
 	}
-
-	public void setHit(int hit) {
-		this.hit = hit;
-	}
-
-	public String getRegtime() {
-		return regtime;
-	}
-
-	public void setRegtime(String regtime) {
-		this.regtime = regtime;
+	
+	public void setZid(int zid) {
+		this.zid = zid;
 	}
 
 	@Override
 	public String toString() {
-		return "BoardDto [articleno=" + bid + ", subject=" + subject + ", content="
-				+ content + ", hit=" + hit + ", regtime=" + regtime + "]";
+		return "ZipBlockDto [zbid=" + zbid + ", type=" + type + ", content=" + content + ", zid=" + zid + "]";
 	}
 
 }

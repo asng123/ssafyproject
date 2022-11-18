@@ -16,7 +16,6 @@ public class BoardDto {
 	@ApiModelProperty(value = "작성일")
 	private String regtime;
 
-
 	public int getBid() {
 		return bid;
 	}

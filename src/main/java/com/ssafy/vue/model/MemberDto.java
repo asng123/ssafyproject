@@ -12,6 +12,8 @@ public class MemberDto {
 	private String username;
 	@ApiModelProperty(value = "닉네임")
 	private String nickname;
+	@ApiModelProperty(value = "전화번호")
+	private String phonenumber;
 	@ApiModelProperty(value = "회원 비밀번호")
 	private String password;
 	@ApiModelProperty(value = "회원 이메일")
@@ -20,8 +22,25 @@ public class MemberDto {
 	private String joindate;
 	@ApiModelProperty(value = "탈퇴 여부")
 	private int delflag;
+	@ApiModelProperty(value = "토큰")
+	private int token;
 	
-	
+	public int getToken() {
+		return token;
+	}
+
+	public void setToken(int token) {
+		this.token = token;
+	}
+
+	public String getPhonenumber() {
+		return phonenumber;
+	}
+
+	public void setPhonenumber(String phonenumber) {
+		this.phonenumber = phonenumber;
+	}
+
 	public int getDelflag() {
 		return delflag;
 	}

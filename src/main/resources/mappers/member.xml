@@ -86,4 +86,10 @@
         where u_id = #{uid}
     </update>
     
+    <select id="idCheck" parameterType="String" resultType="int">
+		select count(u_id)
+		from members
+		where u_id = #{uid}
+	</select>
+    
 </mapper>

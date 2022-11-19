@@ -10,7 +10,8 @@ import com.ssafy.vue.model.MemberDto;
 
 @Mapper
 public interface MemberMapper {
-
+	
+	int idCheck(String uid) throws Exception;
 	public MemberDto login(MemberDto memberDto) throws SQLException;
 	public MemberDto userInfo(String uid) throws SQLException;
 	public void saveRefreshToken(Map<String, String> map) throws SQLException;

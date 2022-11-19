@@ -203,7 +203,7 @@ public class MemberController {
 		}
 		return new ResponseEntity<Map<String, Object>>(resultMap, status);
 	}
-
+	
 	@ApiOperation(value = "로그아웃", notes = "회원 정보를 담은 Token을 제거한다.", response = Map.class)
 	@GetMapping("/logout/{uid}")
 	public ResponseEntity<?> removeToken(@PathVariable("uid") String uid) {
@@ -215,6 +215,24 @@ public class MemberController {
 			status = HttpStatus.ACCEPTED;
 		} catch (Exception e) {
 			logger.error("로그아웃 실패 : {}", e);
+			resultMap.put("message", e.getMessage());
+			status = HttpStatus.INTERNAL_SERVER_ERROR;
+		}
+		return new ResponseEntity<Map<String, Object>>(resultMap, status);
+
+	}
+	
+	@ApiOperation(value = "아이디 중복 검사", notes = "아이디 중복 검사흘 한다", response = Map.class)
+	@GetMapping("/check/{uid}")
+	public ResponseEntity<?> idCheck(@PathVariable("uid") String uid) {
+		Map<String, Object> resultMap = new HashMap<>();
+		HttpStatus status = HttpStatus.ACCEPTED;
+		try {
+			resultMap.put("result", memberService.idCheck(uid));
+			resultMap.put("message", SUCCESS);
+			status = HttpStatus.ACCEPTED;
+		} catch (Exception e) {
+			logger.error("아이디 중복검사 실패 : {}", e);
 			resultMap.put("message", e.getMessage());
 			status = HttpStatus.INTERNAL_SERVER_ERROR;
 		}

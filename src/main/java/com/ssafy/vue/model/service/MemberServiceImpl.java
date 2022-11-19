@@ -78,4 +78,9 @@ public class MemberServiceImpl implements MemberService {
 		memberMapper.deleteMember(uid);
 	}
 
+	@Override
+	public int idCheck(String uid) throws Exception {
+		return memberMapper.idCheck(uid);
+	}
+
 }

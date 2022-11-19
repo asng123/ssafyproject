@@ -6,7 +6,8 @@ import java.util.Map;
 import com.ssafy.vue.model.MemberDto;
 
 public interface MemberService {
-
+	
+	int idCheck(String uid) throws Exception;
 	public MemberDto login(MemberDto memberDto) throws Exception;
 	public MemberDto userInfo(String uid) throws Exception;
 	public void saveRefreshToken(String uid, String refreshToken) throws Exception;

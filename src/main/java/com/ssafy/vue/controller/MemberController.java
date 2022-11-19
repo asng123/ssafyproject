@@ -53,7 +53,7 @@ public class MemberController {
 		@ApiResponse(code = 200, message = "회원정보 OK!!"), 
 		@ApiResponse(code = 404, message = "페이지없어!!"),
 		@ApiResponse(code = 500, message = "서버에러!!") })
-	@GetMapping(value = "/{uid}")
+	@GetMapping(value = "memberinfo/{uid}")
 	public ResponseEntity<?> memberInfo(@PathVariable("uid") String uid) {
 		logger.debug("userInfo uid : {}", uid);
 		try {
@@ -75,10 +75,14 @@ public class MemberController {
 	@PutMapping(value = "/")
 	public ResponseEntity<?> memberModify(@RequestBody MemberDto memberDto) {
 		logger.debug("userModify memberDto : {}", memberDto);
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			memberService.updateMember(memberDto);
-			List<MemberDto> list = memberService.listMember();
-			return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+			MemberDto memberDto2 = memberService.getMember(memberDto.getUid());
+			System.out.println("getmember done");
+			resultMap.put("userInfo", memberDto2);
+			resultMap.put("message", SUCCESS);
+			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -92,10 +96,12 @@ public class MemberController {
 	@DeleteMapping(value = "/{uid}")
 	public ResponseEntity<?> userDelete(@PathVariable("uid") String uid) {
 		logger.debug("userDelete uid : {}", uid);
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			memberService.deleteMember(uid);
-			List<MemberDto> list = memberService.listMember();
-			return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+			memberService.deleRefreshToken(uid);
+			resultMap.put("message", SUCCESS);
+			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			logger.debug("delete catch");
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -134,10 +140,11 @@ public class MemberController {
 	@PostMapping(value = "/")
 	public ResponseEntity<?> joinMember(@RequestBody MemberDto memberDto) {
 		logger.debug("userRegister memberDto : {}", memberDto);
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			memberService.joinMember(memberDto);
-			List<MemberDto> list = memberService.listMember();
-			return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+			resultMap.put("message", SUCCESS);
+			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -187,7 +194,7 @@ public class MemberController {
 			logger.info("사용 가능한 토큰!!!");
 			try {
 //				로그인 사용자 정보.
-				MemberDto memberDto = memberService.userInfo(uid);
+				MemberDto memberDto = memberService.getMember(uid);
 				resultMap.put("userInfo", memberDto);
 				resultMap.put("message", SUCCESS);
 				status = HttpStatus.ACCEPTED;

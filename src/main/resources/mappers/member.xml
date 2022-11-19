@@ -1,68 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
-	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-
-<mapper namespace="com.ssafy.vue.model.mapper.MemberMapper">
-
-	<resultMap type="memberDto" id="member">
-		<result column="nickname" property="nickname"/>
-		<result column="u_id" property="uid"/>
-		<result column="email" property="email"/>
-	</resultMap>
-	
-	<resultMap type="memberDto" id="memberinfo" extends="member">
-		<result column="join_date" property="joindate"/>
-	</resultMap>
-	
-	<resultMap type="memberDto" id="memberAll" extends="member">
-		<result column="password" property="password"/>
-		<result column="join_date" property="joindate"/>
-		<result column="user_name" property="username"/>
-		<result column="phone_number" property="phonenumber"/>
-	</resultMap>
-	
-	<delete id="deleteMember" parameterType="String">
-		update members set delflag=1
-		where u_id = #{uid}
-	</delete>
-	
-	<update id="updateMember" parameterType="memberDto">
-		update members
-		<trim prefix="set" suffixOverrides=",">
-			<if test="username != null">user_name = #{username},</if>
-			<if test="password != null">password = #{password},</if>
-			<if test="email != null">email = #{email},</if>
-			<if test="nickname != null">nickname = #{nickname},</if>
-			<if test="phonenumber != null">phone_number = #{phonenumber},</if>
-		</trim>
-		where u_id = #{uid}
-	</update>
-	
-	<select id="getMember" parameterType="string" resultMap="memberAll">
-		select u_id, user_name, password, email, nickname, join_date, phone_number
-		from members
-		where u_id = #{uid} and delflag = 0
-	</select>	
-	
-	<select id="listMember" resultMap="memberAll">
-		select user_name, u_id, password, email, nickname, join_date, phone_number
-		from members
-		where delflag=0
-		order by join_date
-	</select>
-	
-	<insert id="joinMember" parameterType="memberDto">
-		insert into members (user_name, u_id, phone_number, password, email, nickname, join_date)
-		values (#{username}, #{uid}, #{phonenumber}, #{password}, #{email}, #{nickname}, now())
-	</insert>
-	
-	<select id="login" parameterType="memberDto" resultMap="member">
-		select nickname, u_id, email
-		from members
-		where u_id = #{uid} and password = #{password} and delflag = 0
-	</select>
-	<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
     "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.ssafy.vue.model.mapper.MemberMapper">
@@ -149,29 +86,4 @@
         where u_id = #{uid}
     </update>
     
-</mapper>
-	<select id="userInfo" parameterType="string" resultMap="memberinfo">
-		select user_n, u_id, email, join_date
-		from members
-		where u_id = #{uid} and delflag = 0
-	</select>
-	
-	<select id="getRefreshToken" parameterType="string" resultType="string">
-		select token
-		from members
-		where u_id = #{uid}
-	</select>
-	
-	<update id="saveRefreshToken" parameterType="map">
-		update members
-		set token = #{token}
-		where u_id = #{uid}
-	</update>
-	
-	<update id="deleteRefreshToken" parameterType="map">
-		update members
-		set token = #{token, jdbcType=VARCHAR}
-		where u_id = #{uid}
-	</update>
-	
 </mapper>

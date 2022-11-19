@@ -114,16 +114,21 @@ public class MemberController {
 	@ApiOperation(value = "회원목록", notes = "회원의 <big>전체 목록</big>을 반환해 줍니다.")
 	@ApiResponses({ @ApiResponse(code = 200, message = "회원목록 OK!!"), @ApiResponse(code = 404, message = "페이지없어!!"),
 			@ApiResponse(code = 500, message = "서버에러!!") })
-	@GetMapping(value = "/")
+	@GetMapping(value = "/list")
 	public ResponseEntity<?> listMember() {
 		logger.debug("userList call");
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			logger.debug("userList before run");
 			List<MemberDto> list = memberService.listMember();
+			resultMap.put("users",  list);
+			resultMap.put("message", SUCCESS);
 			logger.debug("userList run");
 			if (list != null && !list.isEmpty()) {
-				return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+				logger.debug("userList return");
+				return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 			} else {
+				logger.debug("userList null");
 				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
 			}
 		} catch (Exception e) {

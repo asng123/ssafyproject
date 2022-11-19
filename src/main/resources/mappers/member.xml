@@ -6,7 +6,7 @@
 
 	<resultMap type="memberDto" id="member">
 		<result column="nickname" property="nickname"/>
-		<result column="user_name" property="username"/>
+		<result column="u_id" property="uid"/>
 		<result column="email" property="email"/>
 	</resultMap>
 	
@@ -17,7 +17,7 @@
 	<resultMap type="memberDto" id="memberAll" extends="member">
 		<result column="password" property="password"/>
 		<result column="join_date" property="joindate"/>
-		<result column="u_id" property="uid"/>
+		<result column="user_name" property="username"/>
 		<result column="phone_number" property="phonenumber"/>
 	</resultMap>
 	

@@ -56,8 +56,8 @@
         values (#{username}, #{uid}, #{phonenumber}, #{password}, #{email}, #{nickname}, now())
     </insert>
     
-    <select id="login" parameterType="memberDto" resultMap="member">
-        select nickname, u_id, email
+    <select id="login" parameterType="memberDto" resultMap="memberAll">
+        select u_id, user_name, password, email, nickname, join_date, phone_number
         from members
         where u_id = #{uid} and password = #{password} and delflag = 0
     </select>
@@ -86,10 +86,11 @@
         where u_id = #{uid}
     </update>
     
+
     <select id="idCheck" parameterType="String" resultType="int">
 		select count(u_id)
 		from members
 		where u_id = #{uid}
 	</select>
-    
+
 </mapper>

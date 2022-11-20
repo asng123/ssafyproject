@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.QuestionMapper">
+	
+	<resultMap type="questionDto" id="questions">
+		<result column="u_id" property="uid"/>
+		<result column="subject" property="subject"/>
+		<result column="q_id" property="qid"/>
+		<result column="reg_time" property="regtime"/>
+	</resultMap>
+	
+	<resultMap type="questionDto" id="question" extends="questions">
+		<result column="content" property="content"/>
+		<result column="answer" property="answer"/>
+	</resultMap>
+
+	<insert id="writeQuestion" parameterType="questionDto">
+		insert into questions (u_id, subject, content)
+		values (#{uid}, #{subject}, #{content})
+	</insert>
+	
+	<update id="writeAnswer" parameterType="questionDto">
+		update questions 
+		set answer = #{answer}
+		where q_id = #{qid}
+	</update>
+	
+	<delete id="deleteQuestion" parameterType="int">
+		delete from questions
+		where q_id = #{qid}
+	</delete>
+	
+	<update id="updateQnA" parameterType="questionDto">
+		 update questions
+        <trim prefix="set" suffixOverrides=",">
+            <if test="content != null">content = #{content},</if>
+            <if test="subject != null">subject = #{subject},</if>
+            <if test="answer != null">answer = #{answer},</if>
+        </trim>
+        where q_id = #{qid}
+	</update>
+	
+	<select id="listQuestion" parameterType="map" resultMap="questions">
+		select u_id, subject, q_id,
+				case when date_format(reg_time, '%Y%m%d') = date_format(now(), '%Y%m%d')
+				then date_format(reg_time, '%H:%i:%s')
+				else date_format(reg_time, '%y.%m.%d')
+				end reg_time
+		from questions
+		<if test="word != null and word != ''">
+			<if test="key == 'subject'">
+				where subject like concat('%', #{word}, '%')
+			</if>
+			<if test="key != 'subject'">
+				where ${key} = #{word}
+			</if>
+		</if>
+		order by q_id desc
+		limit #{start}, #{spp}
+	</select>
+	
+	 <select id="questionDetail" parameterType="int" resultMap="question">
+        select u_id, q_id, content, subject, reg_time, answer
+        from questions
+        where q_id = #{qid}
+    </select>
+</mapper>
+

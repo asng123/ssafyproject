@@ -8,7 +8,9 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.json.JSONObject;
 import org.json.XML;
@@ -58,12 +60,11 @@ public class HouseMapController {
 		logger.info("gugun - 호출");
 		return new ResponseEntity<List<SidoGugunCodeDto>>(haHouseMapService.getGugunInSido(sido), HttpStatus.OK);
 	}
-	@ApiOperation(value = "아파트 목록", notes = "지역코드와 매매계약월을 기준으로 아파트 목록을 반환한다.", response = List.class)
-	@GetMapping(value = "/aptlist/{lawd_cd}/{deal_ymd}", produces = "application/json;charset=utf-8")
-	public ResponseEntity<List<HouseInfoDto>> aptList(@RequestParam("dong") String dong, @RequestParam("dongName") String dongName) throws Exception {
-
-		return new ResponseEntity<List<HouseInfoDto>>(haHouseMapService.getAptInDongNDongName(dong, dongName), HttpStatus.OK);
-	}
+//	@ApiOperation(value = "아파트 목록", notes = "지역코드와 동 기준으로 아파트 목록을 반환한다.", response = List.class)
+//    @GetMapping(value = "/aptlist", produces = "application/json;charset=utf-8")
+//    public ResponseEntity<List<HouseInfoDto>> aptList(@RequestParam("dong") String dong) throws Exception {
+//        return new ResponseEntity<List<HouseInfoDto>>(haHouseMapService.getAptInDongNDongName(dong), HttpStatus.OK);
+//    }
 //	@ApiOperation(value = "아파트 목록", notes = "지역코드와 매매계약월을 기준으로 아파트 목록을 반환한다.", response = List.class)
 //	@GetMapping(value = "/aptlist/{lawd_cd}/{deal_ymd}", produces = "application/json;charset=utf-8")
 //	public ResponseEntity<String> aptList(@PathVariable("lawd_cd") String lawdCd, @PathVariable("deal_ymd") String dealYmd) throws IOException {

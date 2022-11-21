@@ -35,5 +35,4 @@
 		where dongCode = #{dong} 
 		order by aptName
 	</select>
-	
 </mapper>

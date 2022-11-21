@@ -2,6 +2,7 @@ package com.ssafy.vue.model.mapper;
 
 import java.sql.SQLException;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.annotations.Mapper;
 
@@ -15,5 +16,4 @@ public interface HouseMapMapper {
 	List<SidoGugunCodeDto> getGugunInSido(String sido) throws SQLException;
 	List<HouseInfoDto> getDongInGugun(String gugun) throws SQLException;
 	List<HouseInfoDto> getAptInDong(String dong) throws SQLException;
-	List<HouseInfoDto> getAptInDongNDongName(String dong, String dongName) throws Exception;
 }

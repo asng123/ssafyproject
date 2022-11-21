@@ -1,6 +1,7 @@
 package com.ssafy.vue.model.service;
 
 import java.util.List;
+import java.util.Map;
 
 import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,10 +36,10 @@ public class HouseMapServiceImpl implements HouseMapService {
 	public List<HouseInfoDto> getAptInDong(String dong) throws Exception {
 		return sqlSession.getMapper(HouseMapMapper.class).getAptInDong(dong);
 	}
-
-	@Override
-	public List<HouseInfoDto> getAptInDongNDongName(String dong, String dongName) throws Exception {
-		return sqlSession.getMapper(HouseMapMapper.class).getAptInDongNDongName(dong, dongName);
-	}
+//
+//	@Override
+//	public List<HouseInfoDto> getAptInDongNDongName(Map<String, Object> paramMap) throws Exception {
+//		return sqlSession.getMapper(HouseMapMapper.class).getAptInDongNDongName(paramMap);
+//	}
 
 }

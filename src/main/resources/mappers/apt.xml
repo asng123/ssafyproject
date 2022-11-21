@@ -35,4 +35,13 @@
 		where sigunguCode = #{dong}
 		order by apartmentName;
 	</select>
+	
+	<select id="getAptInfo" parameterType="map" resultType="AptInfoDto">
+		select hi.apartmentName, hi.buildYear, hi.roadName, hi.jibun, hi.lng, hi.lat, hi.dongCode,
+		hd.dealAmount, hd.dealYear, hd.dealMonth, hd.dealDay, hd.area, hd.floor
+		from houseinfo hi, housedeal hd
+		where hi.dongCode = #{dong} and hi.apartmentName = #{aptname} and hd.aptCode = hi.aptCode
+		group by hd.aptCode
+	</select>
+	
 </mapper>

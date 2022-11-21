@@ -27,6 +27,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ssafy.vue.model.AptInfoDto;
 import com.ssafy.vue.model.HouseInfoDto;
 import com.ssafy.vue.model.SidoGugunCodeDto;
 import com.ssafy.vue.model.service.HouseMapService;
@@ -116,6 +117,14 @@ public class HouseMapController {
 	@GetMapping("/apt")
 	public ResponseEntity<List<HouseInfoDto>> apt(@RequestParam("dong") String dong) throws Exception {
 		return new ResponseEntity<List<HouseInfoDto>>(haHouseMapService.getAptInDong(dong), HttpStatus.OK);
+	}
+	
+	@GetMapping("/aptinfo")
+	public ResponseEntity<List<AptInfoDto>> aptinfo(@RequestParam("dong") String dong, @RequestParam("aptname") String aptname) throws Exception {
+		Map<String, Object> paramMap = new HashMap<>();
+		paramMap.put("dong", dong);
+		paramMap.put("aptname", aptname);
+		return new ResponseEntity<List<AptInfoDto>>(haHouseMapService.getAptInfo(paramMap), HttpStatus.OK);
 	}
 
 }

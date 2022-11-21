@@ -36,4 +36,9 @@ public class HouseMapServiceImpl implements HouseMapService {
 		return sqlSession.getMapper(HouseMapMapper.class).getAptInDong(dong);
 	}
 
+	@Override
+	public List<HouseInfoDto> getAptInDongNDongName(String dong, String dongName) throws Exception {
+		return sqlSession.getMapper(HouseMapMapper.class).getAptInDongNDongName(dong, dongName);
+	}
+
 }

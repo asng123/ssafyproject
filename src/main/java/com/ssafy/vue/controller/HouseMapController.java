@@ -116,6 +116,7 @@ public class HouseMapController {
 	
 	@GetMapping("/apt")
 	public ResponseEntity<List<HouseInfoDto>> apt(@RequestParam("dong") String dong) throws Exception {
+		logger.info("apt 호출 {}",dong);
 		return new ResponseEntity<List<HouseInfoDto>>(haHouseMapService.getAptInDong(dong), HttpStatus.OK);
 	}
 	

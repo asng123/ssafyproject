@@ -25,11 +25,11 @@ public class AptInfoDto {
 	@ApiModelProperty(value = "매매가격")
 	private String dealAmount;
 	@ApiModelProperty(value = "거래년도")
-	private String dealYear;
+	private int dealYear;
 	@ApiModelProperty(value = "거래월")
-	private String dealMonth;
+	private int dealMonth;
 	@ApiModelProperty(value = "거래일")
-	private String dealDay;
+	private int dealDay;
 	@ApiModelProperty(value = "면적")
 	private String area;
 	@ApiModelProperty(value = "층")
@@ -82,22 +82,22 @@ public class AptInfoDto {
 	public void setDealAmount(String dealAmount) {
 		this.dealAmount = dealAmount;
 	}
-	public String getDealYear() {
+	public int getDealYear() {
 		return dealYear;
 	}
-	public void setDealYear(String dealYear) {
+	public void setDealYear(int dealYear) {
 		this.dealYear = dealYear;
 	}
-	public String getDealMonth() {
+	public int getDealMonth() {
 		return dealMonth;
 	}
-	public void setDealMonth(String dealMonth) {
+	public void setDealMonth(int dealMonth) {
 		this.dealMonth = dealMonth;
 	}
-	public String getDealDay() {
+	public int getDealDay() {
 		return dealDay;
 	}
-	public void setDealDay(String dealDay) {
+	public void setDealDay(int dealDay) {
 		this.dealDay = dealDay;
 	}
 	public String getArea() {

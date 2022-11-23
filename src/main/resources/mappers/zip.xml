@@ -43,13 +43,13 @@
 	
 	
 	<insert id="addZip" parameterType="zipDto">
-		insert into zips (z_id, address, lat, lng, content, price, u_id, place, reg_time,edit_time, hit)
-		values (#{zid}, #{address}, #{lat}, #{lng}, #{content}, #{price}, #{uid}, #{place}, now(),now(),0)
+		insert into zips (z_id, address, lat, lng, content, price, u_id, reg_time,edit_time,reg_code, apt_name, hit)
+		values (#{zid}, #{address}, #{lat}, #{lng}, #{content}, #{price}, #{uid}, now(),now(),#{regcode},#{aptname},0)
 	</insert>
 	
 	<insert id="addZipBlock" parameterType="zipBlockDto">
-		insert into zipblocks (zb_id, `order`, type, content, z_id, address, reg_code, apt_name)
-		values (#{zbid}, #{order}, #{type}, #{content}, #{zid}, #{address}, #{regcode}, #{aptname})
+		insert into zipblocks (zb_id, `order`, type, content, z_id, place)
+		values (#{zbid}, #{order}, #{type}, #{content}, #{zid},#{place})
 	</insert>
 	
 	<select id="zipList" parameterType="map" resultMap="ziplist">

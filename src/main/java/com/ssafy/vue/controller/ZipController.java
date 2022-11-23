@@ -176,7 +176,7 @@ public class ZipController {
 				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
 			}
 		} catch (Exception e) {
-			logger.debug("zips catch");
+			logger.debug("zips catch {}",e);
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}

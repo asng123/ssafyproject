@@ -31,7 +31,9 @@ import io.swagger.annotations.ApiOperation;
 public class ZipController {
 
 	private final Logger logger = LoggerFactory.getLogger(ZipController.class);
-
+	private static final String SUCCESS = "success";
+	private static final String FAIL = "fail";
+	
 	@Autowired
 	private ZipService zipService;
 	
@@ -41,8 +43,9 @@ public class ZipController {
 		logger.info("zip - 저장 {}",zipDto);
 		Map<String, Object> resultMap = new HashMap<>();
 		try {
+			System.out.println(zipDto);
 			zipService.addZip(zipDto);
-			resultMap.put("message", resultMap);
+			resultMap.put("message", SUCCESS);
 			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			logger.debug("zip -에러 {}",e);
@@ -56,7 +59,7 @@ public class ZipController {
 		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			zipService.addZipBlock(zipBlockDto);
-			resultMap.put("message", resultMap);
+			resultMap.put("message", SUCCESS);
 			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			logger.debug("zip block -에러 {}",e);

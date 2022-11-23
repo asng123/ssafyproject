@@ -9,8 +9,10 @@ public class ZipListDto {
 	private String zid;
 	@ApiModelProperty(value = "작성자")
 	private String uid;
-	@ApiModelProperty(value = "소개요약내용")
+	@ApiModelProperty(value = "소개제목내용")
 	private String content;
+	@ApiModelProperty(value = "소개요약내용")
+	private String summary;
 	@ApiModelProperty(value = "조회수")
 	private int hit;
 	@ApiModelProperty(value = "작성일")
@@ -43,6 +45,33 @@ public class ZipListDto {
 	private String place;
 	@ApiModelProperty(value = "순서")
 	private int order;
+	@ApiModelProperty(value = "블락요약")
+	private String blocksummary;
+	
+	public String getSummary() {
+		return summary;
+	}
+	public void setSummary(String summary) {
+		this.summary = summary;
+	}
+	public String getBlocklat() {
+		return blocklat;
+	}
+	public void setBlocklat(String blocklat) {
+		this.blocklat = blocklat;
+	}
+	public String getBlocklng() {
+		return blocklng;
+	}
+	public void setBlocklng(String blocklng) {
+		this.blocklng = blocklng;
+	}
+	public String getBlocksummary() {
+		return blocksummary;
+	}
+	public void setBlocksummary(String blocksummary) {
+		this.blocksummary = blocksummary;
+	}
 	public String getZid() {
 		return zid;
 	}

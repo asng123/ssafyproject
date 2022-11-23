@@ -23,6 +23,15 @@ public class ZipBlockDto {
 	private String lat;
 	@ApiModelProperty(value = "경도")
 	private String lng;
+	@ApiModelProperty(value = "경도")
+	private String summary;
+	
+	public String getSummary() {
+		return summary;
+	}
+	public void setSummary(String summary) {
+		this.summary = summary;
+	}
 	public String getLat() {
 		return lat;
 	}

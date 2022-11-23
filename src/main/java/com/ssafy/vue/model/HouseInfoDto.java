@@ -13,7 +13,7 @@ public class HouseInfoDto {
 	@ApiModelProperty(value = "동코드")
 	private String dongCode;
 	@ApiModelProperty(value = "동이름")
-	private String dongName;
+	private String dong;
 	@ApiModelProperty(value = "시도이름")
 	private String sidoName;
 	@ApiModelProperty(value = "구군이름")
@@ -55,12 +55,12 @@ public class HouseInfoDto {
 		this.dongCode = dongCode;
 	}
 
-	public String getDongName() {
-		return dongName;
+	public String getDong() {
+		return dong;
 	}
 
-	public void setDongName(String dongName) {
-		this.dongName = dongName;
+	public void setDongName(String dong) {
+		this.dong = dong;
 	}
 
 	public String getSidoName() {

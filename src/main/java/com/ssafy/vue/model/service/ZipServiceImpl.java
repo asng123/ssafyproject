@@ -53,4 +53,9 @@ public class ZipServiceImpl implements ZipService {
 	public List<ZipListDto> sideList(Map<String, Object> ParamMap) throws Exception {
 		return sqlSession.getMapper(ZipMapper.class).sideList(ParamMap);
 	}
+	
+	@Override
+	public List<ZipListDto> allList() throws Exception {
+		return sqlSession.getMapper(ZipMapper.class).allList();
+	}
 }

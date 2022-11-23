@@ -15,6 +15,7 @@ public interface ZipMapper {
 	List<ZipListDto> zipList(Map<String, Object> ParamMap) throws Exception;
 	List<ZipListDto> zipDetail(Map<String, Object> ParamMap) throws Exception;
 	List<ZipListDto> sideList(Map<String, Object> ParamMap) throws Exception;
+	List<ZipListDto> allList() throws Exception;
 
 	public int addZipBlock(ZipBlockDto zipBlockDto) throws Exception;
 }

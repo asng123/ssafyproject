@@ -12,6 +12,7 @@ public interface ZipService {
 	List<ZipListDto> zipList(Map<String, Object> ParamMap) throws Exception;
 	List<ZipListDto> zipDetail(Map<String, Object> ParamMap) throws Exception;
 	List<ZipListDto> sideList(Map<String, Object> ParamMap) throws Exception;
-
+	List<ZipListDto> allList() throws Exception;
+	
 	public boolean addZipBlock(ZipBlockDto zipBlockDto) throws Exception;
 }

@@ -25,7 +25,7 @@
 	</select>
 	
 	<select id="getAptInDong" parameterType="string" resultType="houseInfoDto">
-		select h.apartmentName, h.buildYear, h.dongCode, h.jibun, h.lat, h.lng, si.sidoName, gu.gugunName,
+		select h.apartmentName, h.buildYear, h.dongCode, h.jibun, h.lat, h.lng, si.sidoName, gu.gugunName, h.dong
 				(select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) recentPrice
 		from houseinfo h
 		left join sidocode si
@@ -37,7 +37,7 @@
 	</select>
 	
 	<select id="getAptInfos" parameterType="map" resultType="AptInfoDto">
-		select hi.apartmentName, hi.buildYear, hi.roadName, hi.jibun, hi.lng, hi.lat, hi.dongCode,
+		select hi.apartmentName, hi.buildYear, hi.roadName, hi.jibun, hi.lng, hi.lat, hi.dongCode, hi.dong
 		hd.dealAmount, hd.dealYear, hd.dealMonth, hd.dealDay, hd.area, hd.floor
 		from houseinfo hi, housedeal hd
 		where hi.dongCode = #{dong} and hi.apartmentName = #{aptname} and hd.aptCode = hi.aptCode

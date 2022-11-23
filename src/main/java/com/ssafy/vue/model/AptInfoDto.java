@@ -34,6 +34,14 @@ public class AptInfoDto {
 	private String area;
 	@ApiModelProperty(value = "층")
 	private String floor;
+	@ApiModelProperty(value = "동이름")
+	private String dong;
+	public String getDong() {
+		return dong;
+	}
+	public void setDong(String dong) {
+		this.dong = dong;
+	}
 	public String getApartmentName() {
 		return apartmentName;
 	}

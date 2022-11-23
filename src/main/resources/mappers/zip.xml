@@ -9,30 +9,38 @@
 		<result column="u_id" property="uid"/>
 		<result column="content" property="content"/>
 		<result column="hit" property="hit"/>
-		<result column="regtime" property="reg_time"/>
-		<result column="edittime" property="edit_time"/>
+		<result column="reg_time" property="regtime"/>
+		<result column="edit_time" property="edittime"/>
 		<result column="address" property="address"/>
 		<result column="hit" property="hit"/>
 		<result column="lat" property="lat"/>
 		<result column="lng" property="lng"/>
 		<result column="price" property="price"/>
-		<result column="place" property="place"/>
+		<result column="apt_name" property="aptname"/>
+		<result column="reg_code" property="regcode"/>
 	</resultMap>
-
-	<!-- <resultMap type="zipBlockDto" id="zip">
+	
+	<resultMap type="ZipListDto" id="ziplist">
 		<result column="z_id" property="zid"/>
 		<result column="u_id" property="uid"/>
 		<result column="content" property="content"/>
 		<result column="hit" property="hit"/>
-		<result column="regtime" property="reg_time"/>
-		<result column="edittime" property="edit_time"/>
+		<result column="reg_time" property="regtime"/>
+		<result column="edit_time" property="edittime"/>
 		<result column="address" property="address"/>
 		<result column="hit" property="hit"/>
 		<result column="lat" property="lat"/>
 		<result column="lng" property="lng"/>
 		<result column="price" property="price"/>
+		<result column="apt_name" property="aptname"/>
+		<result column="reg_code" property="regcode"/>
+		<result column="type" property="type"/>
+		<result column="order" property="order"/>
 		<result column="place" property="place"/>
-	</resultMap> -->
+		<result column="blockcontent" property="blockcontent"/>
+		<result column="blockaddress" property="blockaddress"/>
+	</resultMap>
+	
 	
 	<insert id="addZip" parameterType="zipDto">
 		insert into zips (z_id, address, lat, lng, content, price, u_id, place, reg_time,edit_time, hit)
@@ -40,9 +48,26 @@
 	</insert>
 	
 	<insert id="addZipBlock" parameterType="zipBlockDto">
-		insert into zipblocks (zb_id, `order`, type, content, z_id, address, place)
-		values (#{zbid}, #{order}, #{type}, #{content}, #{zid}, #{address}, #{place})
-	
+		insert into zipblocks (zb_id, `order`, type, content, z_id, address, reg_code, apt_name)
+		values (#{zbid}, #{order}, #{type}, #{content}, #{zid}, #{address}, #{regcode}, #{aptname})
 	</insert>
+	
+	<select id="zipList" parameterType="map" resultMap="ziplist">
+		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code,
+		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.place 
+		from zips z
+		left join zipblocks zb on z.z_id = zb.z_id
+		where z.reg_code=#{regcode} and z.apt_name=#{aptname}
+		order by z_id desc;
+	</select>
+	
+	<select id="zipDetail" parameterType="map" resultMap="ziplist">
+		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code,
+		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.place 
+		from zips z
+		left join zipblocks zb on z.z_id = zb.z_id
+		where z.reg_code=#{regcode} and z.apt_name=#{aptname} and z.z_id = #{zid}
+		order by zb.order;
+	</select>
 </mapper>
 

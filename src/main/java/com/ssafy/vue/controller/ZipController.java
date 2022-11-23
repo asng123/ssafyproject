@@ -102,7 +102,7 @@ public class ZipController {
 	@ApiOperation(value = "내집소개디테일", notes = "내집소개 <big>디테일</big>을 반환해 줍니다.")
 	@ApiResponses({ @ApiResponse(code = 200, message = "소개목록 OK!!"), @ApiResponse(code = 404, message = "페이지없어!!"),
 			@ApiResponse(code = 500, message = "서버에러!!") })
-	@GetMapping(value = "/list")
+	@GetMapping(value = "/detail")
 	public ResponseEntity<?> zipDetail(@RequestParam("dong") String regcode, @RequestParam("aptname") String aptname, @RequestParam("zid") String zid) {
 		logger.debug("zipDetail call");
 		Map<String, Object> resultMap = new HashMap<>();
@@ -141,6 +141,31 @@ public class ZipController {
 		try {
 			logger.debug("zipList before run");
 			List<ZipListDto> zips = zipService.sideList(ParamMap);
+			resultMap.put("zips",  zips);
+			resultMap.put("message", SUCCESS);
+			if (zips != null && !zips.isEmpty()) {
+				logger.debug("zips return");
+				return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
+			} else {
+				logger.debug("zips null");
+				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
+			}
+		} catch (Exception e) {
+			logger.debug("zips catch");
+			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	@ApiOperation(value = "내집소개모든목록", notes = "내집소개 <big>전체 목록</big>을 반환해 줍니다.")
+	@ApiResponses({ @ApiResponse(code = 200, message = "소개목록 OK!!"), @ApiResponse(code = 404, message = "페이지없어!!"),
+			@ApiResponse(code = 500, message = "서버에러!!") })
+	@GetMapping(value = "/alllist")
+	public ResponseEntity<?> allList() {
+		logger.debug("allList call");
+		Map<String, Object> resultMap = new HashMap<>();
+		try {
+			logger.debug("allList before run");
+			List<ZipListDto> zips = zipService.allList();
 			resultMap.put("zips",  zips);
 			resultMap.put("message", SUCCESS);
 			if (zips != null && !zips.isEmpty()) {

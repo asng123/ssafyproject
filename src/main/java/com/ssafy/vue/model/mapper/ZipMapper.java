@@ -13,7 +13,7 @@ import com.ssafy.vue.model.ZipListDto;
 public interface ZipMapper {
 	public int addZip(ZipDto zipDto) throws Exception;
 	List<ZipListDto> zipList(Map<String, Object> ParamMap) throws Exception;
-	List<ZipListDto> zipDetail(Map<String, Object> ParamMap) throws Exception;
+	List<ZipListDto> zipDetail(String zid) throws Exception;
 	List<ZipListDto> sideList(Map<String, Object> ParamMap) throws Exception;
 	List<ZipListDto> allList() throws Exception;
 

@@ -102,17 +102,19 @@ public class ZipController {
 	@ApiOperation(value = "내집소개디테일", notes = "내집소개 <big>디테일</big>을 반환해 줍니다.")
 	@ApiResponses({ @ApiResponse(code = 200, message = "소개목록 OK!!"), @ApiResponse(code = 404, message = "페이지없어!!"),
 			@ApiResponse(code = 500, message = "서버에러!!") })
-	@GetMapping(value = "/detail")
-	public ResponseEntity<?> zipDetail(@RequestParam("dong") String regcode, @RequestParam("aptname") String aptname, @RequestParam("zid") String zid) {
-		logger.debug("zipDetail call");
+	@GetMapping("/detail")
+	public ResponseEntity<?> zipDetail(@RequestParam("zid") String zid) {
+		System.out.println("zip detail start");
+		System.out.println(zid);
+		logger.debug("zipDetail call {}",zid);
 		Map<String, Object> resultMap = new HashMap<>();
-		Map<String, Object> ParamMap = new HashMap<>();
-		ParamMap.put("regcode",  regcode);
-		ParamMap.put("aptname",  aptname);
-		ParamMap.put("zid",  zid);
+//		Map<String, Object> ParamMap = new HashMap<>();
+//		ParamMap.put("regcode",  regcode);
+//		ParamMap.put("aptname",  aptname);
+//		ParamMap.put("zid",  zid);
 		try {
 			logger.debug("zipDetail before run");
-			List<ZipListDto> zips = zipService.zipDetail(ParamMap);
+			List<ZipListDto> zips = zipService.zipDetail(zid);
 			resultMap.put("zips",  zips);
 			resultMap.put("message", SUCCESS);
 			if (zips != null && !zips.isEmpty()) {

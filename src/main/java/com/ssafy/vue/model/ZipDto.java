@@ -27,101 +27,78 @@ public class ZipDto {
 	private int price;
 	@ApiModelProperty(value = "장소 이")
 	private String place;
-	
 	public String getZid() {
 		return zid;
 	}
-	
 	public void setZid(String zid) {
 		this.zid = zid;
 	}
-	
 	public String getUid() {
 		return uid;
 	}
-	
 	public void setUid(String uid) {
 		this.uid = uid;
 	}
 	public String getContent() {
 		return content;
 	}
-
 	public void setContent(String content) {
 		this.content = content;
 	}
 	public int getHit() {
 		return hit;
 	}
-	
 	public void setHit(int hit) {
 		this.hit = hit;
 	}
-	
 	public String getRegtime() {
 		return regtime;
 	}
-	
 	public void setRegtime(String regtime) {
 		this.regtime = regtime;
 	}
-	
 	public String getEdittime() {
 		return edittime;
 	}
-	
 	public void setEdittime(String edittime) {
 		this.edittime = edittime;
 	}
-	
 	public String getAddress() {
 		return address;
 	}
-	
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	
 	public String getLat() {
 		return lat;
 	}
-	
 	public void setLat(String lat) {
 		this.lat = lat;
 	}
-	
 	public String getLng() {
 		return lng;
 	}
-	
 	public void setLng(String lng) {
 		this.lng = lng;
 	}
-	
 	public int getPrice() {
 		return price;
 	}
-	
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
 	public String getPlace() {
 		return place;
 	}
-
 	public void setPlace(String place) {
 		this.place = place;
 	}
-
 	@Override
 	public String toString() {
-		return "ZipDto [zid=" + zid + ", uid=" + uid + ", content=" + content +  ", hit=" + hit
-				+ ", regtime=" + regtime + ", edittime=" + edittime + ", address=" + address + ", lat=" + lat + ", lng="
-				+ lng + ", price=" + price + ", place=" + place + "]";
-
+		return "ZipDto [zid=" + zid + ", uid=" + uid + ", content=" + content + ", hit=" + hit + ", regtime=" + regtime
+				+ ", edittime=" + edittime + ", address=" + address + ", lat=" + lat + ", lng=" + lng + ", price="
+				+ price + ", place=" + place + "]";
 	}
-
 	
 	
 

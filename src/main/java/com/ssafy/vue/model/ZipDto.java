@@ -29,6 +29,15 @@ public class ZipDto {
 	private String aptname;
 	@ApiModelProperty(value = "지역코드")
 	private String regcode;
+	@ApiModelProperty(value = "요약")
+	private String summary;
+	
+	public String getSummary() {
+		return summary;
+	}
+	public void setSummary(String summary) {
+		this.summary = summary;
+	}
 	public String getRegcode() {
 		return regcode;
 	}

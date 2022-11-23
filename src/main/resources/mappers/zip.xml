@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.ZipMapper">
+	
+	<resultMap type="zipDto" id="zip">
+		<result column="z_id" property="zid"/>
+		<result column="u_id" property="uid"/>
+		<result column="content" property="content"/>
+		<result column="hit" property="hit"/>
+		<result column="regtime" property="reg_time"/>
+		<result column="edittime" property="edit_time"/>
+		<result column="address" property="address"/>
+		<result column="hit" property="hit"/>
+		<result column="lat" property="lat"/>
+		<result column="lng" property="lng"/>
+		<result column="price" property="price"/>
+		<result column="place" property="place"/>
+	</resultMap>
+
+	<!-- <resultMap type="zipBlockDto" id="zip">
+		<result column="z_id" property="zid"/>
+		<result column="u_id" property="uid"/>
+		<result column="content" property="content"/>
+		<result column="hit" property="hit"/>
+		<result column="regtime" property="reg_time"/>
+		<result column="edittime" property="edit_time"/>
+		<result column="address" property="address"/>
+		<result column="hit" property="hit"/>
+		<result column="lat" property="lat"/>
+		<result column="lng" property="lng"/>
+		<result column="price" property="price"/>
+		<result column="place" property="place"/>
+	</resultMap> -->
+	
+	<insert id="addZip" parameterType="zipDto">
+		insert into zips (z_id, address, lat, lng, content, price, u_id, place, reg_time,edit_time, hit)
+		values (#{zid}, #{address}, #{lat}, #{lng}, #{content}, #{price}, #{uid}, #{place}, now(),now(),0)
+	
+	</insert>
+	
+	<insert id="addZipBlock" parameterType="zipBlockDto">
+		insert into zipblocks (zb_id, order, type, content, z_id, address, place)
+		values (#{zbid}, #{order}, #{type}, #{content}, #{zid}, #{address}, #{place})
+	
+	</insert>
+</mapper>
+

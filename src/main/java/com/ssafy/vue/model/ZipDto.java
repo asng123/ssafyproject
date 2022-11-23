@@ -6,13 +6,11 @@ import io.swagger.annotations.ApiModelProperty;
 @ApiModel(value = "ZipDto : 소개글정보", description = "소개글의 요약 정보를 나타낸다.")
 public class ZipDto {
 	@ApiModelProperty(value = "소개글번호")
-	private int zid;
+	private String zid;
 	@ApiModelProperty(value = "작성자")
 	private String uid;
-	@ApiModelProperty(value = "소개글제목")
-	private String subject;
 	@ApiModelProperty(value = "소개요약내용")
-	private String summary;
+	private String content;
 	@ApiModelProperty(value = "조회수")
 	private int hit;
 	@ApiModelProperty(value = "작성일")
@@ -27,6 +25,14 @@ public class ZipDto {
 	private String lng;
 	@ApiModelProperty(value = "가격")
 	private int price;
+	@ApiModelProperty(value = "장소 이")
+	private String place;
+	
+	public String getZid() {
+		return zid;
+	}
+	
+	public void setZid(String zid) {
 	
 	public int getZid() {
 		return zid;
@@ -43,23 +49,13 @@ public class ZipDto {
 	public void setUid(String uid) {
 		this.uid = uid;
 	}
-	
-	public String getSubject() {
-		return subject;
+	public String getContent() {
+		return content;
 	}
-	
-	public void setSubject(String subject) {
-		this.subject = subject;
+
+	public void setContent(String content) {
+		this.content = content;
 	}
-	
-	public String getSummary() {
-		return summary;
-	}
-	
-	public void setSummary(String summary) {
-		this.summary = summary;
-	}
-	
 	public int getHit() {
 		return hit;
 	}
@@ -116,11 +112,20 @@ public class ZipDto {
 		this.price = price;
 	}
 	
+	public String getPlace() {
+		return place;
+	}
+
+	public void setPlace(String place) {
+		this.place = place;
+	}
+
 	@Override
 	public String toString() {
-		return "ZipDto [zid=" + zid + ", uid=" + uid + ", subject=" + subject + ", summary=" + summary + ", hit=" + hit
+		return "ZipDto [zid=" + zid + ", uid=" + uid + ", content=" + content +  ", hit=" + hit
 				+ ", regtime=" + regtime + ", edittime=" + edittime + ", address=" + address + ", lat=" + lat + ", lng="
-				+ lng + ", price=" + price + "]";
+				+ lng + ", price=" + price + ", place=" + place + "]";
+
 	}
 
 	

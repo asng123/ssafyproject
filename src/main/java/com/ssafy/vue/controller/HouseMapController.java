@@ -49,7 +49,7 @@ public class HouseMapController {
 
 	@ApiOperation(value = "시도 정보", notes = "전국의 시도를 반환한다.", response = List.class)
 	@GetMapping("/sido")
-	public ResponseEntity<List<SidoGugunCodeDto>> sido() throws Exception {
+	public ResponseEntity<List<SidoGugunCodeDto>> addZip() throws Exception {
 		logger.info("sido - 호출");
 		return new ResponseEntity<List<SidoGugunCodeDto>>(haHouseMapService.getSido(), HttpStatus.OK);
 	}
@@ -120,6 +120,13 @@ public class HouseMapController {
 		return new ResponseEntity<List<HouseInfoDto>>(haHouseMapService.getAptInDong(dong), HttpStatus.OK);
 	}
 	
+	@GetMapping("/aptinfos")
+	public ResponseEntity<List<AptInfoDto>> aptinfos(@RequestParam("dong") String dong, @RequestParam("aptname") String aptname) throws Exception {
+		Map<String, Object> paramMap = new HashMap<>();
+		paramMap.put("dong", dong);
+		paramMap.put("aptname", aptname);
+		return new ResponseEntity<List<AptInfoDto>>(haHouseMapService.getAptInfos(paramMap), HttpStatus.OK);
+	}
 	@GetMapping("/aptinfo")
 	public ResponseEntity<List<AptInfoDto>> aptinfo(@RequestParam("dong") String dong, @RequestParam("aptname") String aptname) throws Exception {
 		Map<String, Object> paramMap = new HashMap<>();
@@ -127,5 +134,4 @@ public class HouseMapController {
 		paramMap.put("aptname", aptname);
 		return new ResponseEntity<List<AptInfoDto>>(haHouseMapService.getAptInfo(paramMap), HttpStatus.OK);
 	}
-
 }

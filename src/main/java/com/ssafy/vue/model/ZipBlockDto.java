@@ -19,7 +19,22 @@ public class ZipBlockDto {
 	private String place;
 	@ApiModelProperty(value = "순서")
 	private int order;
-	
+	@ApiModelProperty(value = "위도")
+	private String lat;
+	@ApiModelProperty(value = "경도")
+	private String lng;
+	public String getLat() {
+		return lat;
+	}
+	public void setLat(String lat) {
+		this.lat = lat;
+	}
+	public String getLng() {
+		return lng;
+	}
+	public void setLng(String lng) {
+		this.lng = lng;
+	}
 	public String getZbid() {
 		return zbid;
 	}

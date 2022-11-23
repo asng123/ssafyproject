@@ -33,6 +33,12 @@ public class ZipDto {
 	}
 	
 	public void setZid(String zid) {
+	
+	public int getZid() {
+		return zid;
+	}
+	
+	public void setZid(int zid) {
 		this.zid = zid;
 	}
 	
@@ -43,7 +49,6 @@ public class ZipDto {
 	public void setUid(String uid) {
 		this.uid = uid;
 	}
-	
 	public String getContent() {
 		return content;
 	}
@@ -51,7 +56,6 @@ public class ZipDto {
 	public void setContent(String content) {
 		this.content = content;
 	}
-
 	public int getHit() {
 		return hit;
 	}
@@ -121,6 +125,7 @@ public class ZipDto {
 		return "ZipDto [zid=" + zid + ", uid=" + uid + ", content=" + content +  ", hit=" + hit
 				+ ", regtime=" + regtime + ", edittime=" + edittime + ", address=" + address + ", lat=" + lat + ", lng="
 				+ lng + ", price=" + price + ", place=" + place + "]";
+
 	}
 
 	

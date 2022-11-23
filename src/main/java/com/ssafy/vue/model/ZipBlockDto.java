@@ -68,6 +68,6 @@ public class ZipBlockDto {
 				+ address + ", place=" + place + ", order=" + order + "]";
 	}
 	
-	
+
 
 }

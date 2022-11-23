@@ -13,6 +13,7 @@ public interface HouseMapService {
 	List<SidoGugunCodeDto> getGugunInSido(String sido) throws Exception;
 	List<HouseInfoDto> getDongInGugun(String gugun) throws Exception;
 	List<HouseInfoDto> getAptInDong(String dong) throws Exception;
+	List<AptInfoDto> getAptInfos(Map<String, Object> paramMap) throws Exception;
 	List<AptInfoDto> getAptInfo(Map<String, Object> paramMap) throws Exception;
 	
 }

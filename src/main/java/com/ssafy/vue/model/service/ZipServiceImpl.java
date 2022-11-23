@@ -27,6 +27,7 @@ public class ZipServiceImpl implements ZipService {
 	@Override
 	public boolean addZip(ZipDto zipDto) throws Exception {
 		// TODO Auto-generated method stub
+		System.out.println(zipDto);
 		return sqlSession.getMapper(ZipMapper.class).addZip(zipDto) == 1;
 	}
 

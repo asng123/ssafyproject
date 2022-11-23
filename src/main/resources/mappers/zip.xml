@@ -37,11 +37,10 @@
 	<insert id="addZip" parameterType="zipDto">
 		insert into zips (z_id, address, lat, lng, content, price, u_id, place, reg_time,edit_time, hit)
 		values (#{zid}, #{address}, #{lat}, #{lng}, #{content}, #{price}, #{uid}, #{place}, now(),now(),0)
-	
 	</insert>
 	
 	<insert id="addZipBlock" parameterType="zipBlockDto">
-		insert into zipblocks (zb_id, order, type, content, z_id, address, place)
+		insert into zipblocks (zb_id, `order`, type, content, z_id, address, place)
 		values (#{zbid}, #{order}, #{type}, #{content}, #{zid}, #{address}, #{place})
 	
 	</insert>

@@ -33,12 +33,6 @@ public class ZipDto {
 	}
 	
 	public void setZid(String zid) {
-	
-	public int getZid() {
-		return zid;
-	}
-	
-	public void setZid(int zid) {
 		this.zid = zid;
 	}
 	

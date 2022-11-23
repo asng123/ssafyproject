@@ -35,6 +35,10 @@ public class ZipListDto {
 	private String blockcontent;
 	@ApiModelProperty(value = "주소")
 	private String blockaddress;
+	@ApiModelProperty(value = "블락위도")
+	private String blocklat;
+	@ApiModelProperty(value = "블락경도")
+	private String blocklng;
 	@ApiModelProperty(value = "장소 이름")
 	private String place;
 	@ApiModelProperty(value = "순서")

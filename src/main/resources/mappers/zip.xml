@@ -39,6 +39,8 @@
 		<result column="place" property="place"/>
 		<result column="blockcontent" property="blockcontent"/>
 		<result column="blockaddress" property="blockaddress"/>
+		<result column="blocklat" property="blocklat"/>
+		<result column="blocklng" property="blocklng"/>
 	</resultMap>
 	
 	
@@ -48,13 +50,13 @@
 	</insert>
 	
 	<insert id="addZipBlock" parameterType="zipBlockDto">
-		insert into zipblocks (zb_id, `order`, type, content, z_id, place)
-		values (#{zbid}, #{order}, #{type}, #{content}, #{zid},#{place})
+		insert into zipblocks (zb_id, `order`, type, content, z_id, place, lat, lng)
+		values (#{zbid}, #{order}, #{type}, #{content}, #{zid},#{place}, #{lat}, #{lng})
 	</insert>
 	
 	<select id="zipList" parameterType="map" resultMap="ziplist">
 		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code,
-		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.place 
+		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.lat blocklat, zb.lng blocklng, zb.place 
 		from zips z
 		left join zipblocks zb on z.z_id = zb.z_id
 		where z.reg_code=#{regcode} and z.apt_name=#{aptname}
@@ -63,7 +65,7 @@
 	
 	<select id="zipDetail" parameterType="string" resultMap="ziplist">
 		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code,
-		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.place 
+		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.lat blocklat, zb.lng blocklng, zb.place 
 		from zips z
 		left join zipblocks zb on z.z_id = zb.z_id
 		where z.z_id = #{zid}

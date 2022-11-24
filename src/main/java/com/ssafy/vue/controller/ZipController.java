@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.ssafy.vue.model.ImageDto;
 import com.ssafy.vue.model.ZipBlockDto;
 import com.ssafy.vue.model.ZipDto;
 import com.ssafy.vue.model.ZipListDto;
@@ -94,7 +95,7 @@ public class ZipController {
 				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
 			}
 		} catch (Exception e) {
-			logger.debug("zips catch");
+			logger.debug("zips catch {}",e);
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
@@ -155,7 +156,7 @@ public class ZipController {
 				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
 			}
 		} catch (Exception e) {
-			logger.debug("zips catch");
+			logger.debug("zips catch {}",e);
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}
@@ -181,6 +182,31 @@ public class ZipController {
 			}
 		} catch (Exception e) {
 			logger.debug("zips catch {}",e);
+			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
+		}
+	}
+	
+	@ApiOperation(value = "이미지 가져오기 ", notes = "idx에 맞는 이미지 url을 반환시켜줍니다.")
+	@ApiResponses({ @ApiResponse(code = 200, message = "이미지 OK!!"), @ApiResponse(code = 404, message = "페이지없어!!"),
+			@ApiResponse(code = 500, message = "서버에러!!") })
+	@GetMapping(value = "/imageurl")
+	public ResponseEntity<?> getImageUrl(@RequestParam("idx") int idx) {
+		logger.debug("imageurl call {}",idx);
+		Map<String, Object> resultMap = new HashMap<>();
+		try {
+			logger.debug("imageurl before run");
+			ImageDto image = zipService.getImageUrl(idx);
+			resultMap.put("imageurl",  image);
+			resultMap.put("message", SUCCESS);
+			if (image != null ) {
+				logger.debug("imageurl return");
+				return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
+			} else {
+				logger.debug("imageurl null");
+				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
+			}
+		} catch (Exception e) {
+			logger.debug("imageurl catch {}",e);
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
 	}

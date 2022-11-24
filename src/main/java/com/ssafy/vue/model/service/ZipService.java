@@ -3,6 +3,7 @@ package com.ssafy.vue.model.service;
 import java.util.List;
 import java.util.Map;
 
+import com.ssafy.vue.model.ImageDto;
 import com.ssafy.vue.model.ZipBlockDto;
 import com.ssafy.vue.model.ZipDto;
 import com.ssafy.vue.model.ZipListDto;
@@ -16,4 +17,5 @@ public interface ZipService {
 	
 	public boolean addZipBlock(ZipBlockDto zipBlockDto) throws Exception;
 	public void hitPlus(String zid) throws Exception;
+	public ImageDto getImageUrl(int idx) throws Exception;
 }

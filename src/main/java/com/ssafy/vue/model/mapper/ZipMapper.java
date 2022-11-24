@@ -5,6 +5,7 @@ import java.util.Map;
 
 import org.apache.ibatis.annotations.Mapper;
 
+import com.ssafy.vue.model.ImageDto;
 import com.ssafy.vue.model.ZipBlockDto;
 import com.ssafy.vue.model.ZipDto;
 import com.ssafy.vue.model.ZipListDto;
@@ -19,5 +20,5 @@ public interface ZipMapper {
 
 	public int addZipBlock(ZipBlockDto zipBlockDto) throws Exception;
 	public void hitPlus(String zid) throws Exception;
-
+	public ImageDto getImageUrl(int idx) throws Exception;
 }

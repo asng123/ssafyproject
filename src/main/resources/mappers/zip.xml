@@ -79,5 +79,11 @@
 		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code, z.summary
 		from zips z;
 	</select>
+	
+	<update id="hitPlus" parameterType="string">
+		update zips
+		set hit = hit + 1
+		where z_id = #{zid}
+	</update>
 </mapper>
 

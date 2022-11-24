@@ -18,4 +18,6 @@ public interface ZipMapper {
 	List<ZipListDto> allList() throws Exception;
 
 	public int addZipBlock(ZipBlockDto zipBlockDto) throws Exception;
+	public void hitPlus(String zid) throws Exception;
+
 }

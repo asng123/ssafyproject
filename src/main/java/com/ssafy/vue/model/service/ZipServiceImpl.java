@@ -62,7 +62,9 @@ public class ZipServiceImpl implements ZipService {
 
 	@Override
 	public void hitPlus(String zid) throws Exception {
-		sqlSession.getMapper(ZipMapper.class).hitPlus(zid);	
+		sqlSession.getMapper(ZipMapper.class).hitPlus(zid);		
+	}
+	@Override
 	public ImageDto getImageUrl(int idx) throws Exception {
 		// TODO Auto-generated method stub
 		return sqlSession.getMapper(ZipMapper.class).getImageUrl(idx);

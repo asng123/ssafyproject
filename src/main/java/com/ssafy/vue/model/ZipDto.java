@@ -31,6 +31,8 @@ public class ZipDto {
 	private String regcode;
 	@ApiModelProperty(value = "요약")
 	private String summary;
+	@ApiModelProperty(value = "사진인덱스")
+	private String pidx;
 	
 	public String getSummary() {
 		return summary;
@@ -110,12 +112,21 @@ public class ZipDto {
 	public void setAptname(String aptname) {
 		this.aptname = aptname;
 	}
+	
+	public String getPidx() {
+		return pidx;
+	}
+	public void setPidx(String pidx) {
+		this.pidx = pidx;
+	}
 	@Override
 	public String toString() {
 		return "ZipDto [zid=" + zid + ", uid=" + uid + ", content=" + content + ", hit=" + hit + ", regtime=" + regtime
 				+ ", edittime=" + edittime + ", address=" + address + ", lat=" + lat + ", lng=" + lng + ", price="
-				+ price + ", place=" + aptname + "]";
+				+ price + ", aptname=" + aptname + ", regcode=" + regcode + ", summary=" + summary + ", pidx=" + pidx
+				+ "]";
 	}
+	
 	
 	
 

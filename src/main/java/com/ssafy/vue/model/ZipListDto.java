@@ -47,6 +47,9 @@ public class ZipListDto {
 	private int order;
 	@ApiModelProperty(value = "블락요약")
 	private String blocksummary;
+	@ApiModelProperty(value = "이미지 인덱스")
+	private int pidx;
+	
 	
 	public String getSummary() {
 		return summary;
@@ -174,14 +177,23 @@ public class ZipListDto {
 	public void setOrder(int order) {
 		this.order = order;
 	}
+	
+	public int getPidx() {
+		return pidx;
+	}
+	public void setPidx(int pidx) {
+		this.pidx = pidx;
+	}
 	@Override
 	public String toString() {
-		return "ZipListDto [zid=" + zid + ", uid=" + uid + ", content=" + content + ", hit=" + hit + ", regtime="
-				+ regtime + ", edittime=" + edittime + ", address=" + address + ", lat=" + lat + ", lng=" + lng
-				+ ", price=" + price + ", aptname=" + aptname + ", regcode=" + regcode + ", type=" + type
-				+ ", blockcontent=" + blockcontent + ", blockaddress=" + blockaddress + ", place=" + place + ", order="
-				+ order + "]";
+		return "ZipListDto [zid=" + zid + ", uid=" + uid + ", content=" + content + ", summary=" + summary + ", hit="
+				+ hit + ", regtime=" + regtime + ", edittime=" + edittime + ", address=" + address + ", lat=" + lat
+				+ ", lng=" + lng + ", price=" + price + ", aptname=" + aptname + ", regcode=" + regcode + ", type="
+				+ type + ", blockcontent=" + blockcontent + ", blockaddress=" + blockaddress + ", blocklat=" + blocklat
+				+ ", blocklng=" + blocklng + ", place=" + place + ", order=" + order + ", blocksummary=" + blocksummary
+				+ ", pidx=" + pidx + "]";
 	}
+	
 	
 	
 

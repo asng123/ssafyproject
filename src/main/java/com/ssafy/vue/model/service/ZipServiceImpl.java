@@ -58,4 +58,9 @@ public class ZipServiceImpl implements ZipService {
 	public List<ZipListDto> allList() throws Exception {
 		return sqlSession.getMapper(ZipMapper.class).allList();
 	}
+
+	@Override
+	public void hitPlus(String zid) throws Exception {
+		sqlSession.getMapper(ZipMapper.class).hitPlus(zid);		
+	}
 }

@@ -15,4 +15,5 @@ public interface ZipService {
 	List<ZipListDto> allList() throws Exception;
 	
 	public boolean addZipBlock(ZipBlockDto zipBlockDto) throws Exception;
+	public void hitPlus(String zid) throws Exception;
 }

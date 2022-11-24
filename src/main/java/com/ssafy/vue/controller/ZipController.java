@@ -112,7 +112,9 @@ public class ZipController {
 //		ParamMap.put("regcode",  regcode);
 //		ParamMap.put("aptname",  aptname);
 //		ParamMap.put("zid",  zid);
+		
 		try {
+			zipService.hitPlus(zid);
 			logger.debug("zipDetail before run");
 			List<ZipListDto> zips = zipService.zipDetail(zid);
 			resultMap.put("zips",  zips);

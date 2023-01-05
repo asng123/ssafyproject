@@ -34,12 +34,6 @@ public class ZipDto {
 	@ApiModelProperty(value = "사진인덱스")
 	private String pidx;
 	
-	public int getP_idx() {
-		return p_idx;
-	}
-	public void setP_idx(int p_idx) {
-		this.p_idx = p_idx;
-	}
 	public String getSummary() {
 		return summary;
 	}

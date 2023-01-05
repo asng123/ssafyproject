@@ -74,14 +74,14 @@
 	</select> -->
 	
 	<select id="zipList" parameterType="map" resultMap="ziplist">
-		select z_id, address, lat, lng, content, price, reg_time, edit_time, u_id, hit, apt_name, reg_code, summary,p_idx
+		select z_id, address, lat, lng, content, price, reg_time, edit_time, u_id, hit, apt_name, reg_code, summary, p_idx
 		from zips
 		where reg_code=#{regcode} and apt_name=#{aptname}
 		order by reg_time desc;
 	</select>
 	
 	<select id="zipDetail" parameterType="string" resultMap="ziplist">
-		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code, z.summary, z.p_idx
+		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code, z.summary, z.p_idx,
 		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.lat blocklat, zb.lng blocklng, zb.place, zb.summary blocksummary
 		from zips z
 		left join zipblocks zb on z.z_id = zb.z_id

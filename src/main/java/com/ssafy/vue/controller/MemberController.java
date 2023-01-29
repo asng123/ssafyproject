@@ -53,7 +53,7 @@ public class MemberController {
 		@ApiResponse(code = 200, message = "회원정보 OK!!"), 
 		@ApiResponse(code = 404, message = "페이지없어!!"),
 		@ApiResponse(code = 500, message = "서버에러!!") })
-	@GetMapping(value = "/{uid}")
+	@GetMapping(value = "memberinfo/{uid}")
 	public ResponseEntity<?> memberInfo(@PathVariable("uid") String uid) {
 		logger.debug("userInfo uid : {}", uid);
 		try {
@@ -75,10 +75,14 @@ public class MemberController {
 	@PutMapping(value = "/")
 	public ResponseEntity<?> memberModify(@RequestBody MemberDto memberDto) {
 		logger.debug("userModify memberDto : {}", memberDto);
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			memberService.updateMember(memberDto);
-			List<MemberDto> list = memberService.listMember();
-			return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+			MemberDto memberDto2 = memberService.getMember(memberDto.getUid());
+			System.out.println("getmember done");
+			resultMap.put("userInfo", memberDto2);
+			resultMap.put("message", SUCCESS);
+			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -92,10 +96,12 @@ public class MemberController {
 	@DeleteMapping(value = "/{uid}")
 	public ResponseEntity<?> userDelete(@PathVariable("uid") String uid) {
 		logger.debug("userDelete uid : {}", uid);
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			memberService.deleteMember(uid);
-			List<MemberDto> list = memberService.listMember();
-			return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+			memberService.deleRefreshToken(uid);
+			resultMap.put("message", SUCCESS);
+			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			logger.debug("delete catch");
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
@@ -108,16 +114,21 @@ public class MemberController {
 	@ApiOperation(value = "회원목록", notes = "회원의 <big>전체 목록</big>을 반환해 줍니다.")
 	@ApiResponses({ @ApiResponse(code = 200, message = "회원목록 OK!!"), @ApiResponse(code = 404, message = "페이지없어!!"),
 			@ApiResponse(code = 500, message = "서버에러!!") })
-	@GetMapping(value = "/")
+	@GetMapping(value = "/list")
 	public ResponseEntity<?> listMember() {
 		logger.debug("userList call");
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			logger.debug("userList before run");
 			List<MemberDto> list = memberService.listMember();
+			resultMap.put("users",  list);
+			resultMap.put("message", SUCCESS);
 			logger.debug("userList run");
 			if (list != null && !list.isEmpty()) {
-				return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+				logger.debug("userList return");
+				return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 			} else {
+				logger.debug("userList null");
 				return new ResponseEntity<Void>(HttpStatus.NO_CONTENT);
 			}
 		} catch (Exception e) {
@@ -134,10 +145,11 @@ public class MemberController {
 	@PostMapping(value = "/")
 	public ResponseEntity<?> joinMember(@RequestBody MemberDto memberDto) {
 		logger.debug("userRegister memberDto : {}", memberDto);
+		Map<String, Object> resultMap = new HashMap<>();
 		try {
 			memberService.joinMember(memberDto);
-			List<MemberDto> list = memberService.listMember();
-			return new ResponseEntity<List<MemberDto>>(list, HttpStatus.OK);
+			resultMap.put("message", SUCCESS);
+			return new ResponseEntity<Map<String, Object>>(resultMap, HttpStatus.OK);
 		} catch (Exception e) {
 			return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 		}
@@ -187,7 +199,7 @@ public class MemberController {
 			logger.info("사용 가능한 토큰!!!");
 			try {
 //				로그인 사용자 정보.
-				MemberDto memberDto = memberService.userInfo(uid);
+				MemberDto memberDto = memberService.getMember(uid);
 				resultMap.put("userInfo", memberDto);
 				resultMap.put("message", SUCCESS);
 				status = HttpStatus.ACCEPTED;
@@ -203,7 +215,7 @@ public class MemberController {
 		}
 		return new ResponseEntity<Map<String, Object>>(resultMap, status);
 	}
-
+	
 	@ApiOperation(value = "로그아웃", notes = "회원 정보를 담은 Token을 제거한다.", response = Map.class)
 	@GetMapping("/logout/{uid}")
 	public ResponseEntity<?> removeToken(@PathVariable("uid") String uid) {
@@ -215,6 +227,24 @@ public class MemberController {
 			status = HttpStatus.ACCEPTED;
 		} catch (Exception e) {
 			logger.error("로그아웃 실패 : {}", e);
+			resultMap.put("message", e.getMessage());
+			status = HttpStatus.INTERNAL_SERVER_ERROR;
+		}
+		return new ResponseEntity<Map<String, Object>>(resultMap, status);
+
+	}
+	
+	@ApiOperation(value = "아이디 중복 검사", notes = "아이디 중복 검사흘 한다", response = Map.class)
+	@GetMapping("/check/{uid}")
+	public ResponseEntity<?> idCheck(@PathVariable("uid") String uid) {
+		Map<String, Object> resultMap = new HashMap<>();
+		HttpStatus status = HttpStatus.ACCEPTED;
+		try {
+			resultMap.put("result", memberService.idCheck(uid));
+			resultMap.put("message", SUCCESS);
+			status = HttpStatus.ACCEPTED;
+		} catch (Exception e) {
+			logger.error("아이디 중복검사 실패 : {}", e);
 			resultMap.put("message", e.getMessage());
 			status = HttpStatus.INTERNAL_SERVER_ERROR;
 		}

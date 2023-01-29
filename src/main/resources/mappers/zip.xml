@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	
+<mapper namespace="com.ssafy.vue.model.mapper.ZipMapper">
+	
+	<resultMap type="zipDto" id="zip">
+		<result column="z_id" property="zid"/>
+		<result column="u_id" property="uid"/>
+		<result column="content" property="content"/>
+		<result column="hit" property="hit"/>
+		<result column="reg_time" property="regtime"/>
+		<result column="edit_time" property="edittime"/>
+		<result column="address" property="address"/>
+		<result column="hit" property="hit"/>
+		<result column="lat" property="lat"/>
+		<result column="lng" property="lng"/>
+		<result column="price" property="price"/>
+		<result column="apt_name" property="aptname"/>
+		<result column="reg_code" property="regcode"/>
+		<result column="summary" property="summary"/>
+		<result column="p_idx" property="pidx"/>
+	</resultMap>
+	
+	<resultMap type="ZipListDto" id="ziplist">
+		<result column="z_id" property="zid"/>
+		<result column="u_id" property="uid"/>
+		<result column="content" property="content"/>
+		<result column="summary" property="summary"/>
+		<result column="hit" property="hit"/>
+		<result column="reg_time" property="regtime"/>
+		<result column="edit_time" property="edittime"/>
+		<result column="address" property="address"/>
+		<result column="hit" property="hit"/>
+		<result column="lat" property="lat"/>
+		<result column="lng" property="lng"/>
+		<result column="price" property="price"/>
+		<result column="apt_name" property="aptname"/>
+		<result column="reg_code" property="regcode"/>
+		<result column="type" property="type"/>
+		<result column="order" property="order"/>
+		<result column="place" property="place"/>
+		<result column="blockcontent" property="blockcontent"/>
+		<result column="blockaddress" property="blockaddress"/>
+		<result column="blocklat" property="blocklat"/>
+		<result column="blocklng" property="blocklng"/>
+		<result column="blocksummary" property="blocksummary"/>
+		<result column="p_idx" property="pidx"/>
+	</resultMap>
+	
+	<resultMap type="ImageDto" id="imagedto">
+		<result column="idx" property="idx"/>
+		<result column="url" property="url"/>
+	</resultMap>
+	
+	
+	<insert id="addZip" parameterType="zipDto">
+		insert into zips (z_id, address, lat, lng, content, price, u_id, reg_time,edit_time,reg_code, apt_name, hit, summary)
+		values (#{zid}, #{address}, #{lat}, #{lng}, #{content}, #{price}, #{uid}, now(),now(),#{regcode},#{aptname},0, #{summary})
+	</insert>
+	
+	<insert id="addZipBlock" parameterType="zipBlockDto">
+		insert into zipblocks (zb_id, `order`, type, content, z_id, place, lat, lng, summary)
+		values (#{zbid}, #{order}, #{type}, #{content}, #{zid},#{place}, #{lat}, #{lng}, #{summary})
+	</insert>
+	
+	<!-- <select id="zipList" parameterType="map" resultMap="ziplist">
+		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code, z.summary,
+		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.lat blocklat, zb.lng blocklng, zb.place, zb.summary blocksummary
+		from zips z
+		left join zipblocks zb on z.z_id = zb.z_id
+		where z.reg_code=#{regcode} and z.apt_name=#{aptname}
+		order by z_id desc;
+	</select> -->
+	
+	<select id="zipList" parameterType="map" resultMap="ziplist">
+		select z_id, address, lat, lng, content, price, reg_time, edit_time, u_id, hit, apt_name, reg_code, summary, p_idx
+		from zips
+		where reg_code=#{regcode} and apt_name=#{aptname}
+		order by reg_time desc;
+	</select>
+	
+	<select id="zipDetail" parameterType="string" resultMap="ziplist">
+		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code, z.summary, z.p_idx,
+		zb.zb_id, zb.`order`, zb.`type`, zb.content blockcontent, zb.address blockaddress, zb.lat blocklat, zb.lng blocklng, zb.place, zb.summary blocksummary
+		from zips z
+		left join zipblocks zb on z.z_id = zb.z_id
+		where z.z_id = #{zid}
+		order by zb.order;
+	</select>
+	<select id="getImageUrl" parameterType="int" resultMap="imagedto">
+		select idx, url
+		from aptimg
+		where idx=#{idx}
+	</select>
+	
+	<select id="allList" parameterType="map" resultMap="zip">
+		select z.z_id, z.address, z.lat, z.lng, z.content, z.price, z.reg_time, z.edit_time, z.u_id, z.hit, z.apt_name, z.reg_code, z.summary, z.p_idx
+		from zips z
+		order by z.reg_time desc;
+	</select>
+	
+	<update id="hitPlus" parameterType="string">
+		update zips
+		set hit = hit + 1
+		where z_id = #{zid}
+	</update>
+</mapper>
+

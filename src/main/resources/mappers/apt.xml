@@ -25,15 +25,30 @@
 	</select>
 	
 	<select id="getAptInDong" parameterType="string" resultType="houseInfoDto">
-		select h.aptCode, h.aptName, h.buildyear, h.dongCode, h.dongName, h.jibun, h.lat, h.lng, si.sidoname, gu.gugunname,
+		select h.apartmentName, h.buildYear, h.dongCode, h.jibun, h.lat, h.lng, si.sidoName, gu.gugunName, h.dong,
 				(select dealAmount from housedeal where aptCode = h.aptCode and no = (select max(no) from housedeal where aptCode = h.aptCode)) recentPrice
 		from houseinfo h
 		left join sidocode si
-		on left(h.dongcode,2) = left(si.sidocode,2)
+		on left(h.dongCode,2) = left(si.sidoCode,2)
 		left join guguncode gu
-		on left(h.dongcode,5) = left(gu.guguncode,5)
-		where dongCode = #{dong} 
-		order by aptName
+		on left(h.dongCode,5) = left(gu.gugunCode,5)
+		where h.dongCode = #{dong} 
+		order by apartmentName
 	</select>
 	
+	<select id="getAptInfos" parameterType="map" resultType="AptInfoDto">
+		select hi.apartmentName, hi.buildYear, hi.roadName, hi.jibun, hi.lng, hi.lat, hi.dongCode, hi.dong,
+		hd.dealAmount, hd.dealYear, hd.dealMonth, hd.dealDay, hd.area, hd.floor
+		from houseinfo hi, housedeal hd
+		where hi.dongCode = #{dong} and hi.apartmentName = #{aptname} and hd.aptCode = hi.aptCode
+		order by hd.dealYear desc, hd.dealMonth desc, hd.dealDay desc
+	</select>
+	<!-- <select id="getAptInfo" parameterType="map" resultType="AptInfoDto">
+		select hi.apartmentName, hi.buildYear, hi.roadName, hi.jibun, hi.lng, hi.lat, hi.dongCode,
+		hd.dealAmount, hd.dealYear, hd.dealMonth, hd.dealDay, hd.area, hd.floor
+		from houseinfo hi, housedeal hd
+		where hi.dongCode = #{dong} and hi.apartmentName = #{aptname} and hd.aptCode = hi.aptCode
+		order by hd.dealYear desc, hd.dealMonth desc, hd.dealDay desc
+		limit 1
+	</select> -->
 </mapper>
